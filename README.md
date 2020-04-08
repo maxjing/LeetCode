@@ -11,10 +11,11 @@
 |  1004   | Max Consecutive Ones III                             | [Python](./Python/1004.py) |     Medium     | HashMap  |
 |   567   | Permutation in String                                | [Python](./Python/567.py)  |     Medium     | HashMap  |
 |   438   | Find All Anagrams in a String                        | [Python](./Python/438.py)  |     Medium     | HashMap  |
-|   76    | Minimum Window Substring                             |  [Python](./Python/76.py)  |     Medium     | HashMap  |
+|   76    | Minimum Window Substring                             |  [Python](./Python/76.py)  |      Hard      | HashMap  |
 
 #### 2 - Two Pointers
 
-| **No.** | **Title**                           |       **Solution**       | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :---------------------------------- | :----------------------: | :------------: | :------- | :-------- |
-|   26    | Remove Duplicates from Sorted Array | [Python](./Python/26.py) |      Easy      |          |
+| **No.** | **Title**                           |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :---------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   26    | Remove Duplicates from Sorted Array | [Python](./Python/26.py)  |      Easy      |          |
+|   977   | Squares of a Sorted Array           | [Python](./Python/977.py) |      Easy      |          |

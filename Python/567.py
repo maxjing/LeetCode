@@ -12,9 +12,10 @@ class Solution:
                 d[right_char] -= 1
                 if d[right_char] == 0:
                     matched += 1
-            'remember len d not len s1'
+            # remember len d not len s1
             if matched == len(d):
                 return True
+            # not ice hear use if and len(s1) - 1
             if window_end >= len(s1) - 1:
                 left_char = s2[window_start]
                 window_start += 1
