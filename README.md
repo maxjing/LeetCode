@@ -19,3 +19,9 @@
 | :-----: | :---------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
 |   26    | Remove Duplicates from Sorted Array | [Python](./Python/26.py)  |      Easy      |          |
 |   977   | Squares of a Sorted Array           | [Python](./Python/977.py) |      Easy      |          |
+|   15    | 3Sum                                | [Python](./Python/15.py)  |     Medium     |          |
+|   16    | 3Sum Closest                        | [Python](./Python/16.py)  |     Medium     |          |
+|   259   | 3Sum Smaller                        | [Python](./Python/259.py) |     Medium     |          |
+|   713   | Subarray Product Less Than K        | [Python](./Python/713.py) |     Medium     |          |
+|   75    | Sort Colors                         | [Python](./Python/75.py)  |     Medium     |          |
+|   844   | Backspace String Compare            | [Python](./Python/844.py) |     Medium     |          |
