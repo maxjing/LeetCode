@@ -26,3 +26,10 @@
 |   75    | Sort Colors                           | [Python](./Python/75.py)  |     Medium     |          |
 |   844   | Backspace String Compare              | [Python](./Python/844.py) |     Medium     |          |
 |   581   | Shortest Unsorted Continuous Subarray | [Python](./Python/581.py) |     Medium     |          |
+
+#### 3 - Fast & Slow pointers
+
+| **No.** | **Title**            |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   141   | Linked List Cycle    | [Python](./Python/141.py) |      Easy      |          |
+|   142   | Linked List Cycle II | [Python](./Python/142.py) |     Medium     |          |
