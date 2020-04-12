@@ -12,6 +12,7 @@ class Solution:
                     return target
                 if (abs(smallest_diff) > abs(current_diff)) or (abs(smallest_diff) == abs(current_diff) and current_diff > smallest_diff):
                     smallest_diff = current_diff
+                # not > target
                 if current_diff > 0:
                     left += 1
                 else:

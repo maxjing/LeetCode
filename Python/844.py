@@ -11,7 +11,7 @@ class Solution:
                 return False
             if S[i1] != T[i2]:
                 return False
-            # i1 - 1 not index1 - 1
+            # 2.i1 - 1 not index1 - 1
             index1 = i1 - 1
             index2 = i2 - 1
         return True

@@ -1,11 +1,12 @@
 class Solution:
     def findUnsortedSubarray(self, nums: List[int]) -> int:
         low, high = 0, len(nums) - 1
+        # 2. >= and <=
         while low < len(nums) - 1 and nums[low] <= nums[low + 1]:
             low += 1
         while high > 0 and nums[high] >= nums[high - 1]:
             high -= 1
-
+        # 2. means sorted already
         if low == len(nums) - 1:
             return 0
 

@@ -9,6 +9,6 @@ class Solution:
                 product /= nums[left]
                 left += 1
             # case [1, 2, 3] k = 0, without right > left count will be negative
-            if right > left:
+            if right >= left:
                 count += right - left + 1
         return count
