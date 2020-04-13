@@ -37,3 +37,13 @@
 |   234   | Palindrome Linked List    | [Python](./Python/234.py) |     Medium     |          |
 |   202   | Happy Number              | [Python](./Python/202.py) |      Easy      |          |
 |   143   | Reorder List              | [Python](./Python/143.py) |     Medium     |          |
+|   253   | Meeting Rooms II          | [Python](./Python/253.py) |     Medium     |          |
+
+#### 3 - Merge Intervals
+
+| **No.** | **Title**                   |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :-------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   56    | Merge Intervals             | [Python](./Python/56.py)  |     Medium     |          |
+|   57    | Insert Interval             | [Python](./Python/57.py)  |      Hard      |          |
+|   986   | Interval List Intersections | [Python](./Python/986.py) |     Medium     |          |
+|   759   | Employee Free Time          | [Python](./Python/759.py) |      Hard      |          |
