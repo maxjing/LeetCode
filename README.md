@@ -32,11 +32,11 @@
 | **No.** | **Title**                 |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
 | :-----: | :------------------------ | :-----------------------: | :------------: | :------- | :-------- |
 |   141   | Linked List Cycle         | [Python](./Python/141.py) |      Easy      |          |
-|   142   | Linked List Cycle II      | [Python](./Python/142.py) |     Medium     |          |
+|   142   | Linked List Cycle II      | [Python](./Python/142.py) |     Medium     | #        |
 |   876   | Middle of the Linked List | [Python](./Python/876.py) |      Easy      |          |
-|   234   | Palindrome Linked List    | [Python](./Python/234.py) |     Medium     |          |
-|   202   | Happy Number              | [Python](./Python/202.py) |      Easy      |          |
-|   143   | Reorder List              | [Python](./Python/143.py) |     Medium     |          |
+|   234   | Palindrome Linked List    | [Python](./Python/234.py) |     Medium     | #        |
+|   202   | Happy Number              | [Python](./Python/202.py) |      Easy      | #        |
+|   143   | Reorder List              | [Python](./Python/143.py) |     Medium     | #        |
 
 #### 3 - Merge Intervals
 
@@ -47,3 +47,17 @@
 |   986   | Interval List Intersections | [Python](./Python/986.py) |     Medium     |          |
 |   759   | Employee Free Time          | [Python](./Python/759.py) |      Hard      |          |
 |   253   | Meeting Rooms II            | [Python](./Python/253.py) |     Medium     |          |
+
+#### 4 - Cyclic Sort
+
+| **No.** | **Title**                                |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :--------------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   268   | Missing Number                           | [Python](./Python/268.py) |      Easy      |          |
+|   448   | Find All Numbers Disappeared in an Array | [Python](./Python/448.py) |      Easy      |          |
+|   41    | First Missing Positive                   | [Python](./Python/41.py)  |      Hard      |          |
+
+#### 5 - In-place Reversal of a LinkedList
+
+| **No.** | **Title**           |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :------------------ | :-----------------------: | :------------: | :------- | :-------- |
+|   206   | Reverse Linked List | [Python](./Python/206.py) |      Easy      |          |
