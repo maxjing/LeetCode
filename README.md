@@ -58,6 +58,7 @@
 
 #### 5 - In-place Reversal of a LinkedList
 
-| **No.** | **Title**           |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :------------------ | :-----------------------: | :------------: | :------- | :-------- |
-|   206   | Reverse Linked List | [Python](./Python/206.py) |      Easy      |          |
+| **No.** | **Title**              |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :--------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   206   | Reverse Linked List    | [Python](./Python/206.py) |     Medium     |          |
+|   92    | Reverse Linked List II | [Python](./Python/92.py)  |     Medium     |          |
