@@ -58,7 +58,20 @@
 
 #### 5 - In-place Reversal of a LinkedList
 
-| **No.** | **Title**              |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :--------------------- | :-----------------------: | :------------: | :------- | :-------- |
-|   206   | Reverse Linked List    | [Python](./Python/206.py) |     Medium     |          |
-|   92    | Reverse Linked List II | [Python](./Python/92.py)  |     Medium     |          |
+| **No.** | **Title**                |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :----------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   206   | Reverse Linked List      | [Python](./Python/206.py) |     Medium     |          |
+|   92    | Reverse Linked List II   | [Python](./Python/92.py)  |     Medium     |          |
+|   25    | Reverse Nodes in k-Group | [Python](./Python/25.py)  |      Hard      |          |
+
+#### 6 - Tree Breadth First Search
+
+| **No.** | **Title**                                   |       **Solution**        | **Difficulty** | **Tags**  | **Notes** |
+| :-----: | :------------------------------------------ | :-----------------------: | :------------: | :-------- | :-------- |
+|   102   | Binary Tree Level Order Traversal           | [Python](./Python/102.py) |     Medium     | BFS       |
+|   107   | Binary Tree Level Order Traversal II        | [Python](./Python/107.py) |      Easy      | BFS       |
+|   103   | Binary Tree Zigzag Level Order Traversal    | [Python](./Python/103.py) |     Medium     | BFS       |
+|   637   | Average of Levels in Binary Tree            | [Python](./Python/637.py) |      Easy      | BFS       |
+|   111   | Minimum Depth of Binary Tree                | [Python](./Python/111.py) |      Easy      | BFS + DFS |
+|   116   | Populating Next Right Pointers in Each Node | [Python](./Python/116.py) |      Easy      | BFS       |
+|   199   | Binary Tree Right Side View                 | [Python](./Python/199.py) |     Medium     | BFS       |
