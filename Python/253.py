@@ -13,6 +13,7 @@ class Solution:
         end.sort()
 
         enditr = 0
+        # if start time is smaller than last end time, means there is a meeting before the current meeting and has not finished yet, so count + 1, else check the next room
         for i in range(len(start)):
             if start[i] < end[enditr]:
                 res += 1

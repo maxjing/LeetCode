@@ -25,7 +25,8 @@
 |   713   | Subarray Product Less Than K          | [Python](./Python/713.py) |     Medium     |          | #         |
 |   75    | Sort Colors                           | [Python](./Python/75.py)  |     Medium     |          | #         |
 |   844   | Backspace String Compare              | [Python](./Python/844.py) |     Medium     |          | #         |
-|   581   | Shortest Unsorted Continuous Subarray | [Python](./Python/581.py) |     Medium     |          |
+|   581   | Shortest Unsorted Continuous Subarray | [Python](./Python/581.py) |     Medium     |
+|   33    | Search in Rotated Sorted Array        | [Python](./Python/33.py)  |     Medium     |          |
 
 #### 3 - Fast & Slow pointers
 
@@ -42,11 +43,11 @@
 
 | **No.** | **Title**                   |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
 | :-----: | :-------------------------- | :-----------------------: | :------------: | :------- | :-------- |
-|   56    | Merge Intervals             | [Python](./Python/56.py)  |     Medium     |          |
+|   56    | Merge Intervals             | [Python](./Python/56.py)  |     Medium     | #        |
 |   57    | Insert Interval             | [Python](./Python/57.py)  |      Hard      |          |
-|   986   | Interval List Intersections | [Python](./Python/986.py) |     Medium     |          |
+|   986   | Interval List Intersections | [Python](./Python/986.py) |     Medium     | #        |
 |   759   | Employee Free Time          | [Python](./Python/759.py) |      Hard      |          |
-|   253   | Meeting Rooms II            | [Python](./Python/253.py) |     Medium     |          |
+|   253   | Meeting Rooms II            | [Python](./Python/253.py) |     Medium     | #        |
 
 #### 4 - Cyclic Sort
 
@@ -75,3 +76,12 @@
 |   111   | Minimum Depth of Binary Tree                | [Python](./Python/111.py) |      Easy      | BFS + DFS |
 |   116   | Populating Next Right Pointers in Each Node | [Python](./Python/116.py) |      Easy      | BFS       |
 |   199   | Binary Tree Right Side View                 | [Python](./Python/199.py) |     Medium     | BFS       |
+
+#### 7 - Tree Depth First Search
+
+| **No.** | **Title**                |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :----------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   112   | Path Sum                 | [Python](./Python/112.py) |      Easy      | DFS      |
+|   113   | Path Sum II              | [Python](./Python/113.py) |     Medium     | DFS      |
+|   129   | Sum Root to Leaf Numbers | [Python](./Python/129.py) |     Medium     | DFS      |
+|   257   | Binary Tree Paths        | [Python](./Python/257.py) |      Easy      | DFS      |

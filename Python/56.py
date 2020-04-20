@@ -18,6 +18,28 @@ class Solution:
         return res
 
 
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        if len(intervals) < 2:
+            return intervals
+        intervals = sorted(intervals, key=lambda x: x[0])
+        start = intervals[0][0]
+        end = intervals[0][1]
+        merged = []
+
+        for i in range(1, len(intervals)):
+            interval = intervals[i]
+            if interval[0] <= end:
+                end = max(end, interval[1])
+            else:
+                merged.append([start, end])
+                start = interval[0]
+                end = interval[1]
+
+        merged.append([start, end])
+        return merged
+
+
 '''
 Time: O(nlogn), logn for sort, n for loop
 Space: O(n) s we need to return a list containing all the merged intervals. We will also need O(N) space for sorting
