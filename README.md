@@ -79,9 +79,12 @@
 
 #### 7 - Tree Depth First Search
 
-| **No.** | **Title**                |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :----------------------- | :-----------------------: | :------------: | :------- | :-------- |
-|   112   | Path Sum                 | [Python](./Python/112.py) |      Easy      | DFS      |
-|   113   | Path Sum II              | [Python](./Python/113.py) |     Medium     | DFS      |
-|   129   | Sum Root to Leaf Numbers | [Python](./Python/129.py) |     Medium     | DFS      |
-|   257   | Binary Tree Paths        | [Python](./Python/257.py) |      Easy      | DFS      |
+| **No.** | **Title**                    |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :--------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   112   | Path Sum                     | [Python](./Python/112.py) |      Easy      | DFS      |
+|   113   | Path Sum II                  | [Python](./Python/113.py) |     Medium     | DFS      |
+|   129   | Sum Root to Leaf Numbers     | [Python](./Python/129.py) |     Medium     | DFS      |
+|   257   | Binary Tree Paths            | [Python](./Python/257.py) |      Easy      | DFS      |
+|   437   | Path Sum III                 | [Python](./Python/437.py) |      Easy      | DFS      |
+|   543   | Diameter of Binary Tree      | [Python](./Python/543.py) |     Medium     | DFS      |
+|   124   | Binary Tree Maximum Path Sum | [Python](./Python/124.py) |      Hard      | DFS      |
