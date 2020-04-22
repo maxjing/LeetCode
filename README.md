@@ -88,3 +88,21 @@
 |   437   | Path Sum III                 | [Python](./Python/437.py) |      Easy      | DFS      |
 |   543   | Diameter of Binary Tree      | [Python](./Python/543.py) |     Medium     | DFS      |
 |   124   | Binary Tree Maximum Path Sum | [Python](./Python/124.py) |      Hard      | DFS      |
+
+#### 8 - Two Heaps
+
+| **No.** | **Title**                    |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :--------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   295   | Find Median from Data Stream | [Python](./Python/295.py) |      Hard      | Heap     |
+|   502   | IPO                          | [Python](./Python/502.py) |      Hard      | Heap     |
+|   436   | Find Right Interval          | [Python](./Python/436.py) |      Hard      | Heap     |
+|   480   | Sliding Window Median        | [Python](./Python/480.py) |      Hard      | Heap     |
+
+#### 9 - Subsets
+
+| **No.** | **Title**       |       **Solution**       | **Difficulty** | **Tags**  | **Notes** |
+| :-----: | :-------------- | :----------------------: | :------------: | :-------- | :-------- |
+|   78    | Subsets         | [Python](./Python/78.py) |      Easy      | DFS + BFS |
+|   90    | Subsets II      | [Python](./Python/90.py) |     Medium     | DFS       |
+|   46    | Permutation     | [Python](./Python/46.py) |     Medium     | DFS       |
+|   47    | Permutations II | [Python](./Python/47.py) |     Medium     | DFS       |
