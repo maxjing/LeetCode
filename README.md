@@ -100,9 +100,13 @@
 
 #### 9 - Subsets
 
-| **No.** | **Title**       |       **Solution**       | **Difficulty** | **Tags**  | **Notes** |
-| :-----: | :-------------- | :----------------------: | :------------: | :-------- | :-------- |
-|   78    | Subsets         | [Python](./Python/78.py) |      Easy      | DFS + BFS |
-|   90    | Subsets II      | [Python](./Python/90.py) |     Medium     | DFS       |
-|   46    | Permutation     | [Python](./Python/46.py) |     Medium     | DFS       |
-|   47    | Permutations II | [Python](./Python/47.py) |     Medium     | DFS       |
+| **No.** | **Title**                |       **Solution**        | **Difficulty** | **Tags**  | **Notes** |
+| :-----: | :----------------------- | :-----------------------: | :------------: | :-------- | :-------- |
+|   78    | Subsets                  | [Python](./Python/78.py)  |      Easy      | DFS + BFS |
+|   90    | Subsets II               | [Python](./Python/90.py)  |     Medium     | DFS       |
+|   46    | Permutation              | [Python](./Python/46.py)  |     Medium     | DFS       |
+|   47    | Permutations II          | [Python](./Python/47.py)  |     Medium     | DFS       |
+|   784   | Letter Case Permutation  | [Python](./Python/784.py) |      Easy      | BFS       |
+|   22    | Generate Parentheses     | [Python](./Python/22.py)  |     Medium     | DFS       |
+|   320   | Generalized Abbreviation | [Python](./Python/320.py) |     Medium     | DFS       |
+|   224   | Basic Calculator         | [Python](./Python/224.py) |      Hard      |           |
