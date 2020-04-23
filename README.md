@@ -121,3 +121,4 @@
 |   540   | Single Element in a Sorted Array                        | [Python](./Python/540.py)  |      Easy      |          |           |
 |  1200   | Minimum Absolute Difference                             | [Python](./Python/1200.py) |      Easy      |          |           |
 |   153   | Find Minimum in Rotated Sorted Array                    | [Python](./Python/153.py)  |     Medium     |          |           |
+|   136   | Single Number                                           | [Python](./Python/136.py)  |     Medium     |          |           |
