@@ -129,3 +129,10 @@
 |   136   | Single Number                 | [Python](./Python/136.py)  |     Medium     |          |           |
 |  1009   | Complement of Base 10 Integer | [Python](./Python/1009.py) |      Easy      |          |           |
 |   832   | Flipping an Image             | [Python](./Python/832.py)  |      Easy      |          |           |
+
+#### 13 - Top 'K' Elements
+
+| **No.** | **Title**                       |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :------------------------------ | :-----------------------: | :------------: | :------- | :-------- |
+|   347   | Top K Frequent Elements         | [Python](./Python/347.py) |     Medium     |          |           |
+|   215   | Kth Largest Element in an Array | [Python](./Python/215.py) |     Medium     | Heap     |           |
