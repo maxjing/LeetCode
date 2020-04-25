@@ -25,6 +25,7 @@ class Solution:
             prev = current
             current = next
             i += 1
+        # m is not 1
         if last_node_of_first_part is not None:
             last_node_of_first_part.next = prev
         else:

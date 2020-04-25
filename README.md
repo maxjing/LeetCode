@@ -55,15 +55,15 @@
 | :-----: | :--------------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
 |   268   | Missing Number                           | [Python](./Python/268.py) |      Easy      |          |
 |   448   | Find All Numbers Disappeared in an Array | [Python](./Python/448.py) |      Easy      |          |
-|   41    | First Missing Positive                   | [Python](./Python/41.py)  |      Hard      |          |
+|   41    | First Missing Positive                   | [Python](./Python/41.py)  |      Hard      |          | #         |
 
 #### 6 - In-place Reversal of a LinkedList
 
 | **No.** | **Title**                |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
 | :-----: | :----------------------- | :-----------------------: | :------------: | :------- | :-------- |
 |   206   | Reverse Linked List      | [Python](./Python/206.py) |     Medium     |          |
-|   92    | Reverse Linked List II   | [Python](./Python/92.py)  |     Medium     |          |
-|   25    | Reverse Nodes in k-Group | [Python](./Python/25.py)  |      Hard      |          |
+|   92    | Reverse Linked List II   | [Python](./Python/92.py)  |     Medium     |          | #         |
+|   25    | Reverse Nodes in k-Group | [Python](./Python/25.py)  |      Hard      |          | #         |
 
 #### 7 - Tree Breadth First Search
 
@@ -74,20 +74,20 @@
 |   103   | Binary Tree Zigzag Level Order Traversal    | [Python](./Python/103.py) |     Medium     | BFS       |
 |   637   | Average of Levels in Binary Tree            | [Python](./Python/637.py) |      Easy      | BFS       |
 |   111   | Minimum Depth of Binary Tree                | [Python](./Python/111.py) |      Easy      | BFS + DFS |
-|   116   | Populating Next Right Pointers in Each Node | [Python](./Python/116.py) |      Easy      | BFS       |
+|   116   | Populating Next Right Pointers in Each Node | [Python](./Python/116.py) |      Easy      | BFS       | #         |
 |   199   | Binary Tree Right Side View                 | [Python](./Python/199.py) |     Medium     | BFS       |
 
 #### 8 - Tree Depth First Search
 
-| **No.** | **Title**                    |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :--------------------------- | :-----------------------: | :------------: | :------- | :-------- |
-|   112   | Path Sum                     | [Python](./Python/112.py) |      Easy      | DFS      |
-|   113   | Path Sum II                  | [Python](./Python/113.py) |     Medium     | DFS      |
-|   129   | Sum Root to Leaf Numbers     | [Python](./Python/129.py) |     Medium     | DFS      |
-|   257   | Binary Tree Paths            | [Python](./Python/257.py) |      Easy      | DFS      |
-|   437   | Path Sum III                 | [Python](./Python/437.py) |      Easy      | DFS      |
-|   543   | Diameter of Binary Tree      | [Python](./Python/543.py) |     Medium     | DFS      |
-|   124   | Binary Tree Maximum Path Sum | [Python](./Python/124.py) |      Hard      | DFS      |
+| **No.** | **Title**                    |       **Solution**        | **Difficulty** | **Tags**      | **Notes** |
+| :-----: | :--------------------------- | :-----------------------: | :------------: | :------------ | :-------- |
+|   112   | Path Sum                     | [Python](./Python/112.py) |      Easy      | DFS           |
+|   113   | Path Sum II                  | [Python](./Python/113.py) |     Medium     | DFS Backtrack | #         |
+|   129   | Sum Root to Leaf Numbers     | [Python](./Python/129.py) |     Medium     | DFS           | #         |
+|   257   | Binary Tree Paths            | [Python](./Python/257.py) |      Easy      | DFS Backtrack |
+|   437   | Path Sum III                 | [Python](./Python/437.py) |      Easy      | DFS Backtrack | #         |
+|   543   | Diameter of Binary Tree      | [Python](./Python/543.py) |     Medium     | DFS Global    | #         |
+|   124   | Binary Tree Maximum Path Sum | [Python](./Python/124.py) |      Hard      | DFS Global    | #         |
 
 #### 9 - Two Heaps
 
@@ -121,4 +121,11 @@
 |   540   | Single Element in a Sorted Array                        | [Python](./Python/540.py)  |      Easy      |          |           |
 |  1200   | Minimum Absolute Difference                             | [Python](./Python/1200.py) |      Easy      |          |           |
 |   153   | Find Minimum in Rotated Sorted Array                    | [Python](./Python/153.py)  |     Medium     |          |           |
-|   136   | Single Number                                           | [Python](./Python/136.py)  |     Medium     |          |           |
+
+#### 12 - Bitwise XOR
+
+| **No.** | **Title**                     |        **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :---------------------------- | :------------------------: | :------------: | :------- | :-------- |
+|   136   | Single Number                 | [Python](./Python/136.py)  |     Medium     |          |           |
+|  1009   | Complement of Base 10 Integer | [Python](./Python/1009.py) |      Easy      |          |           |
+|   832   | Flipping an Image             | [Python](./Python/832.py)  |      Easy      |          |           |
