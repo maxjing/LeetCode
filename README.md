@@ -134,5 +134,8 @@
 
 | **No.** | **Title**                       |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
 | :-----: | :------------------------------ | :-----------------------: | :------------: | :------- | :-------- |
-|   347   | Top K Frequent Elements         | [Python](./Python/347.py) |     Medium     |          |           |
-|   215   | Kth Largest Element in an Array | [Python](./Python/215.py) |     Medium     | Heap     |           |
+|   347   | Top K Frequent Elements         | [Python](./Python/347.py) |     Medium     | Min Heap |           |
+|   215   | Kth Largest Element in an Array | [Python](./Python/215.py) |     Medium     | Min Heap |           |
+|   973   | K Closest Points to Origin      | [Python](./Python/973.py) |     Medium     | Max Heap |           |
+|   703   | Kth Largest Element in a Stream | [Python](./Python/703.py) |      Easy      | Min Heap |           |
+|   451   | Sort Characters By Frequency    | [Python](./Python/451.py) |     Medium     | Max Heap |           |
