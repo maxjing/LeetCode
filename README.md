@@ -139,3 +139,12 @@
 |   973   | K Closest Points to Origin      | [Python](./Python/973.py) |     Medium     | Max Heap |           |
 |   703   | Kth Largest Element in a Stream | [Python](./Python/703.py) |      Easy      | Min Heap |           |
 |   451   | Sort Characters By Frequency    | [Python](./Python/451.py) |     Medium     | Max Heap |           |
+|   658   | Find K Closest Elements         | [Python](./Python/658.py) |     Medium     | Max Heap |           |
+
+#### - Miscellaneous
+
+| **No.** | **Title**                |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :----------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   946   | Validate Stack Sequences | [Python](./Python/946.py) |     Medium     | Stack    |           |
+|   258   | Add Digits               | [Python](./Python/258.py) |      Easy      |          |           |
+|   55    | Jump Game                | [Python](./Python/55.py)  |     Medium     |          |           |
