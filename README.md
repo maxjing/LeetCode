@@ -132,14 +132,22 @@
 
 #### 13 - Top 'K' Elements
 
-| **No.** | **Title**                       |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :------------------------------ | :-----------------------: | :------------: | :------- | :-------- |
-|   347   | Top K Frequent Elements         | [Python](./Python/347.py) |     Medium     | Min Heap |           |
-|   215   | Kth Largest Element in an Array | [Python](./Python/215.py) |     Medium     | Min Heap |           |
-|   973   | K Closest Points to Origin      | [Python](./Python/973.py) |     Medium     | Max Heap |           |
-|   703   | Kth Largest Element in a Stream | [Python](./Python/703.py) |      Easy      | Min Heap |           |
-|   451   | Sort Characters By Frequency    | [Python](./Python/451.py) |     Medium     | Max Heap |           |
-|   658   | Find K Closest Elements         | [Python](./Python/658.py) |     Medium     | Max Heap |           |
+| **No.** | **Title**                         |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :-------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   347   | Top K Frequent Elements           | [Python](./Python/347.py) |     Medium     | Min Heap |           |
+|   215   | Kth Largest Element in an Array   | [Python](./Python/215.py) |     Medium     | Min Heap |           |
+|   973   | K Closest Points to Origin        | [Python](./Python/973.py) |     Medium     | Max Heap |           |
+|   703   | Kth Largest Element in a Stream   | [Python](./Python/703.py) |      Easy      | Min Heap |           |
+|   451   | Sort Characters By Frequency      | [Python](./Python/451.py) |     Medium     | Max Heap |           |
+|   658   | Find K Closest Elements           | [Python](./Python/658.py) |     Medium     | Max Heap |
+|   767   | Reorganize String                 | [Python](./Python/767.py) |     Medium     | MaxHeap  |           |
+|   358   | Rearrange String k Distance Apart | [Python](./Python/358.py) |      Hard      | MaxHeap  |           |
+
+#### 14 - K-way merge
+
+| **No.** | **Title**            |       **Solution**       | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :------------------- | :----------------------: | :------------: | :------- | :-------- |
+|   23    | Merge k Sorted Lists | [Python](./Python/23.py) |      Hard      | Heap     |           |
 
 #### - Miscellaneous
 
