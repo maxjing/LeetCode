@@ -142,17 +142,22 @@
 |   658   | Find K Closest Elements           | [Python](./Python/658.py) |     Medium     | Max Heap |
 |   767   | Reorganize String                 | [Python](./Python/767.py) |     Medium     | MaxHeap  |           |
 |   358   | Rearrange String k Distance Apart | [Python](./Python/358.py) |      Hard      | MaxHeap  |           |
+|   895   | Maximum Frequency Stack           | [Python](./Python/895.py) |      Hard      | MaxHeap  |
 
 #### 14 - K-way merge
 
-| **No.** | **Title**            |       **Solution**       | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :------------------- | :----------------------: | :------------: | :------- | :-------- |
-|   23    | Merge k Sorted Lists | [Python](./Python/23.py) |      Hard      | Heap     |           |
+| **No.** | **Title**                                     |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :-------------------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   23    | Merge k Sorted Lists                          | [Python](./Python/23.py)  |      Hard      | Heap     |           |
+|   378   | Kth Smallest Element in a Sorted Matrix       | [Python](./Python/378.py) |     Medium     | Min Heap |           |
+|   632   | Smallest Range Covering Elements from K Lists | [Python](./Python/632.py) |      Hard      | Min Heap |           |
+|   373   | Find K Pairs with Smallest Sums               | [Python](./Python/373.py) |      Hard      | Max Heap |           |
 
 #### - Miscellaneous
 
-| **No.** | **Title**                |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :----------------------- | :-----------------------: | :------------: | :------- | :-------- |
-|   946   | Validate Stack Sequences | [Python](./Python/946.py) |     Medium     | Stack    |           |
-|   258   | Add Digits               | [Python](./Python/258.py) |      Easy      |          |           |
-|   55    | Jump Game                | [Python](./Python/55.py)  |     Medium     |          |           |
+| **No.** | **Title**                          |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :--------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   946   | Validate Stack Sequences           | [Python](./Python/946.py) |     Medium     | Stack    |           |
+|   258   | Add Digits                         | [Python](./Python/258.py) |      Easy      |          |           |
+|   55    | Jump Game                          | [Python](./Python/55.py)  |     Medium     |          |           |
+|   387   | First Unique Character in a String | [Python](./Python/387.py) |      Easy      |          |           |
