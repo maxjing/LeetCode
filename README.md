@@ -19,14 +19,15 @@
 | :-----: | :------------------------------------ | :-----------------------: | :------------: | :------- | :-------- |
 |   26    | Remove Duplicates from Sorted Array   | [Python](./Python/26.py)  |      Easy      |          |
 |   977   | Squares of a Sorted Array             | [Python](./Python/977.py) |      Easy      |          | #         |
-|   15    | 3Sum                                  | [Python](./Python/15.py)  |     Medium     |          | #         |
-|   16    | 3Sum Closest                          | [Python](./Python/16.py)  |     Medium     |          | #         |
+|   15    | 3Sum                                  | [Python](./Python/15.py)  |     Medium     |          | ##        |
+|   16    | 3Sum Closest                          | [Python](./Python/16.py)  |     Medium     |          | ##        |
 |   259   | 3Sum Smaller                          | [Python](./Python/259.py) |     Medium     |          |           |
-|   713   | Subarray Product Less Than K          | [Python](./Python/713.py) |     Medium     |          | #         |
-|   75    | Sort Colors                           | [Python](./Python/75.py)  |     Medium     |          | #         |
-|   844   | Backspace String Compare              | [Python](./Python/844.py) |     Medium     |          | #         |
-|   581   | Shortest Unsorted Continuous Subarray | [Python](./Python/581.py) |     Medium     |
+|   713   | Subarray Product Less Than K          | [Python](./Python/713.py) |     Medium     |          | ##        |
+|   75    | Sort Colors                           | [Python](./Python/75.py)  |     Medium     |          | ##        |
+|   844   | Backspace String Compare              | [Python](./Python/844.py) |     Medium     |          | ##        |
+|   581   | Shortest Unsorted Continuous Subarray | [Python](./Python/581.py) |     Medium     |          | #         |
 |   33    | Search in Rotated Sorted Array        | [Python](./Python/33.py)  |     Medium     |          |
+|   278   | First Bad Version                     | [Python](./Python/278.py) |      Easy      |          |
 
 #### 3 - Fast & Slow pointers
 
@@ -79,15 +80,16 @@
 
 #### 8 - Tree Depth First Search
 
-| **No.** | **Title**                    |       **Solution**        | **Difficulty** | **Tags**      | **Notes** |
-| :-----: | :--------------------------- | :-----------------------: | :------------: | :------------ | :-------- |
-|   112   | Path Sum                     | [Python](./Python/112.py) |      Easy      | DFS           |
-|   113   | Path Sum II                  | [Python](./Python/113.py) |     Medium     | DFS Backtrack | #         |
-|   129   | Sum Root to Leaf Numbers     | [Python](./Python/129.py) |     Medium     | DFS           | #         |
-|   257   | Binary Tree Paths            | [Python](./Python/257.py) |      Easy      | DFS Backtrack |
-|   437   | Path Sum III                 | [Python](./Python/437.py) |      Easy      | DFS Backtrack | #         |
-|   543   | Diameter of Binary Tree      | [Python](./Python/543.py) |     Medium     | DFS Global    | #         |
-|   124   | Binary Tree Maximum Path Sum | [Python](./Python/124.py) |      Hard      | DFS Global    | #         |
+| **No.** | **Title**                                                                       |       **Solution**        | **Difficulty** | **Tags**      | **Notes** |
+| :-----: | :------------------------------------------------------------------------------ | :-----------------------: | :------------: | :------------ | :-------- |
+|   112   | Path Sum                                                                        | [Python](./Python/112.py) |      Easy      | DFS           |
+|   113   | Path Sum II                                                                     | [Python](./Python/113.py) |     Medium     | DFS Backtrack | #         |
+|   129   | Sum Root to Leaf Numbers                                                        | [Python](./Python/129.py) |     Medium     | DFS           | #         |
+|   257   | Binary Tree Paths                                                               | [Python](./Python/257.py) |      Easy      | DFS Backtrack |
+|   437   | Path Sum III                                                                    | [Python](./Python/437.py) |      Easy      | DFS Backtrack | #         |
+|   543   | Diameter of Binary Tree                                                         | [Python](./Python/543.py) |     Medium     | DFS Global    | #         |
+|   124   | Binary Tree Maximum Path Sum                                                    | [Python](./Python/124.py) |      Hard      | DFS Global    | #         |
+|   -1    | Check If a String Is a Valid Sequence from Root to Leaves Path in a Binary Tree | [Python](./Python/-1.py)  |       ??       | DFS           |           |
 
 #### 9 - Two Heaps
 

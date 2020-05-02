@@ -1,30 +1,27 @@
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
-        nums.sort()
         res = []
-        for i in range(len(nums)):
-            if i > 0 and nums[i] == nums[i - 1]:
+        nums.sort()
+        for i in range(len(nums) - 2):
+            # remember to check nums[i] also
+            if i > 0 and nums[i] == nums[i-1]:
                 continue
-            self.searchPair(nums, -nums[i], i + 1, res)
+            l, r = i + 1, len(nums) - 1
+            while l < r:
+                currentSum = nums[i] + nums[l] + nums[r]
+                if currentSum == 0:
+                    res.append([nums[i], nums[l], nums[r]])
+                    while l < r and nums[l] == nums[l + 1]:
+                        l += 1
+                    while l < r and nums[r] == nums[r - 1]:
+                        r -= 1
+                    l += 1
+                    r -= 1
+                elif currentSum > 0:
+                    r -= 1
+                else:
+                    l += 1
         return res
-
-    def searchPair(self, nums, target, left, res):
-        right = len(nums) - 1
-        while left < right:
-            current_sum = nums[left] + nums[right]
-            if current_sum == target:
-                res.append([-target, nums[left], nums[right]])
-                left += 1
-                right -= 1
-                # 2. notice left < right condition
-                while left < right and nums[left] == nums[left - 1]:
-                    left += 1
-                while left < right and nums[right] == nums[right + 1]:
-                    right -= 1
-            elif current_sum < target:
-                left += 1
-            else:
-                right -= 1
 
 
 '''
