@@ -10,12 +10,5 @@ def firstMissingPositive(nums):
     for i in range(len(nums)):
         if nums[i] != i + 1:
             return i + 1
+    # [1, 2, 3] -> 4
     return n + 1
-
-
-def main():
-    c = firstMissingPositive([3, 4, -1, 1])
-    print(c)
-
-
-main()
