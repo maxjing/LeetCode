@@ -5,6 +5,24 @@
 #         self.left = None
 #         self.right = None
 
+class Solution:
+    def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
+        if root is None:
+            return []
+        res = []
+        self.dfs(root, sum, [], res)
+        return res
+
+    def dfs(self, node, sum, sublist, res):
+        if node is None:
+            return
+        if node.left is None and node.right is None and node.val == sum:
+            sublist.append(node.val)
+            res.append(sublist)
+        else:
+            self.dfs(node.left, sum - node.val, sublist + [node.val], res)
+            self.dfs(node.right, sum - node.val, sublist + [node.val], res)
+
 
 class Solution:
     def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
