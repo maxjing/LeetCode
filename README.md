@@ -96,23 +96,23 @@
 
 | **No.** | **Title**                    |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
 | :-----: | :--------------------------- | :-----------------------: | :------------: | :------- | :-------- |
-|   295   | Find Median from Data Stream | [Python](./Python/295.py) |      Hard      | Heap     |
-|   502   | IPO                          | [Python](./Python/502.py) |      Hard      | Heap     |
-|   436   | Find Right Interval          | [Python](./Python/436.py) |      Hard      | Heap     |
-|   480   | Sliding Window Median        | [Python](./Python/480.py) |      Hard      | Heap     |
+|   295   | Find Median from Data Stream | [Python](./Python/295.py) |      Hard      | Heap     |#
+|   502   | IPO                          | [Python](./Python/502.py) |      Hard      | Heap     |#
+|   436   | Find Right Interval          | [Python](./Python/436.py) |      Medium      | Heap     |#
+|   480   | Sliding Window Median        | [Python](./Python/480.py) |      Hard      | Heap     | #
 
 #### 10 - Subsets
 
 | **No.** | **Title**                |       **Solution**        | **Difficulty** | **Tags**  | **Notes** |
 | :-----: | :----------------------- | :-----------------------: | :------------: | :-------- | :-------- |
 |   78    | Subsets                  | [Python](./Python/78.py)  |      Easy      | DFS + BFS |           |
-|   90    | Subsets II               | [Python](./Python/90.py)  |     Medium     | DFS       |           |
+|   90    | Subsets II               | [Python](./Python/90.py)  |     Medium     | DFS       |     #      |
 |   46    | Permutation              | [Python](./Python/46.py)  |     Medium     | DFS       |           |
-|   47    | Permutations II          | [Python](./Python/47.py)  |     Medium     | DFS       |           |
-|   784   | Letter Case Permutation  | [Python](./Python/784.py) |      Easy      | BFS       |           |
-|   22    | Generate Parentheses     | [Python](./Python/22.py)  |     Medium     | DFS       |           |
-|   320   | Generalized Abbreviation | [Python](./Python/320.py) |     Medium     | DFS       |           |
-|   224   | Basic Calculator         | [Python](./Python/224.py) |      Hard      |           |           |
+|   47    | Permutations II          | [Python](./Python/47.py)  |     Medium     | DFS       |      #     |
+|   784   | Letter Case Permutation  | [Python](./Python/784.py) |      Easy      | BFS       |       #    |
+|   22    | Generate Parentheses     | [Python](./Python/22.py)  |     Medium     | DFS       |    #       |
+|   320   | Generalized Abbreviation | [Python](./Python/320.py) |     Medium     | DFS       |      ！     |
+
 
 #### 11 - Modified Binary Search
 
@@ -164,3 +164,4 @@
 |   258   | Add Digits                         | [Python](./Python/258.py) |      Easy      |          |           |
 |   55    | Jump Game                          | [Python](./Python/55.py)  |     Medium     |          |           |
 |   387   | First Unique Character in a String | [Python](./Python/387.py) |      Easy      |          |           |
+|   224   | Basic Calculator         | [Python](./Python/224.py) |      Hard      |           |           |#

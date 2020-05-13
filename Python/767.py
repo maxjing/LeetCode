@@ -10,6 +10,7 @@ class Solution:
         res = []
         prevChar, prevFreq = None, 0
         while maxHeap:
+
             freq, char = heappop(maxHeap)
             if prevChar and -prevFreq > 0:
                 heappush(maxHeap, (prevFreq, prevChar))
@@ -19,6 +20,13 @@ class Solution:
         return "".join(res) if len(res) == len(S) else ""
 
 
+'''
+1. maxHeap = [(3, a), (1, b)], prevChar = None, prevFreq = 0, res = []
+2. maxHeap = [(1, b)], char = a, freq = 3, res = ['a'], prevChar = a, prevFreq = 2
+3. maxHeap = [], char = b, freq = 1, res = ['a', 'b'], 
+maxHeap = [(2, 'a')], prevChar = 0, prevChar = b,
+4. maxHeap maxHeap = [], char = a, freq = 2, res = ['a', 'b', 'a'], no heappush because b = 0
+'''
 '''
 Time: O(nlogn)
 '''

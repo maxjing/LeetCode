@@ -26,3 +26,18 @@ class Solution:
             else:
                 l = mid + 1
         return l
+
+#nlogn
+class Solution:
+    def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
+        maxHeap = []
+        arr.sort()
+        for n in arr:
+            heappush(maxHeap, (-abs(n - x), -n))
+            if len(maxHeap) > k:
+                heappop(maxHeap)
+        res = []
+        while maxHeap:
+            res.append(-heappop(maxHeap)[1])
+        res.sort()
+        return res

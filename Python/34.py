@@ -3,6 +3,7 @@ class Solution:
         l, r = self.searchLeft(nums, target), self.searchRight(nums, target)
         if l <= r:
             return [l, r]
+        #target not found
         else:
             return [-1, -1]
 
@@ -10,9 +11,10 @@ class Solution:
         l, r = 0, len(nums) - 1
         while l <= r:
             mid = l + (r - l) // 2
-            if target > nums[mid]:
+            if nums[mid] == target:
+                r = mid - 1
+            elif nums[mid] < target:
                 l = mid + 1
-            # if target == nums[mid], will move leftward
             else:
                 r = mid - 1
         return l
@@ -21,8 +23,9 @@ class Solution:
         l, r = 0, len(nums) - 1
         while l <= r:
             mid = l + (r - l) // 2
-            # if target == nums[mid], will move rightward
-            if target >= nums[mid]:
+            if nums[mid] == target:
+                l = mid + 1
+            elif nums[mid] < target:
                 l = mid + 1
             else:
                 r = mid - 1

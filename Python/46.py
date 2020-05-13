@@ -14,3 +14,7 @@ class Solution:
                 visited.add(i)
                 self.dfs(nums, res, subset+[nums[i]], visited)
                 visited.remove(i)
+
+'''
+Time: O(n * n !)
+'''

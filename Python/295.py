@@ -22,6 +22,12 @@ class MedianFinder:
         else:
             return -self.maxHeap[0] / 1.0
 
+# [3, 1, 5, 4]
+# 1. maxHeap:[3]
+# 2. maxHeap: [3, 1] -> need balance size -> maxHeap[1], minHeap[3]  -> median: 2
+# 3. maxHeap[3], minHeap[1, 5] -> maxHeap[3, 1], minHeap[5] -> median: 3
+# 4. maxHeap[3, 1], minHeap[4, 5] -> median: 3.5
+
 
 # Your MedianFinder object will be instantiated and called as such:
 # obj = MedianFinder()

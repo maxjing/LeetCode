@@ -12,3 +12,8 @@ class Solution:
             self.dfs(res,  s + '(', open + 1, close, max)
         if close < open:
             self.dfs(res, s + ')', open, close + 1, max)
+
+
+'''
+Time: 0(2^N)
+'''
