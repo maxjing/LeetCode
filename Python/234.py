@@ -18,6 +18,7 @@ class Solution:
         while half and head:
             if half.val != head.val:
                 return False
+            #2020.05.13 forgot to add.next
             half = half.next
             head = head.next
         return True

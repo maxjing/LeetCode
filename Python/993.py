@@ -18,6 +18,7 @@ class Solution:
             isY = False
             for _ in range(size):
                 node = q.popleft()
+                #2020.05.14 check node.val first and set flag, node child just check not need set flag
                 if node.val == x:
                     isX = True
                 if node.val == y:

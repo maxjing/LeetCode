@@ -25,5 +25,6 @@ class Solution:
                 jump.next = prev
                 jump = l
                 l = r
+            #2020.05.14 it is else not out loop return
             else:
                 return dummy.next

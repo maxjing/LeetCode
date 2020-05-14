@@ -165,3 +165,4 @@
 |   55    | Jump Game                          | [Python](./Python/55.py)  |     Medium     |          |           |
 |   387   | First Unique Character in a String | [Python](./Python/387.py) |      Easy      |          |           |
 |   224   | Basic Calculator         | [Python](./Python/224.py) |      Hard      |           |           |#
+|   208   | Implement Trie (Prefix Tree)         | [Python](./Python/208.py) |      Medium      |           |           |

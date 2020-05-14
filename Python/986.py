@@ -4,6 +4,7 @@ class Solution:
         i = 0
         j = 0
         while i < len(A) and j < len(B):
+            #2020.05.14 use same 1. A[i][0] or 2. B[j][0] to compare with other one's 1 and 0
             a_overlap_b = A[i][0] >= B[j][0] and A[i][0] <= B[j][1]
             b_overlap_a = B[j][0] >= A[i][0] and B[j][0] <= A[i][1]
 

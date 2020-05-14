@@ -13,6 +13,7 @@ class Solution:
         res, end = [], s[0].end
         for i in s[1:]:
             if i.start > end:
+                #2020.05.14 remember to put it into Interval
                 res.append(Interval(end, i.start))
             end = max(end, i.end)
         return res

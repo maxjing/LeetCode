@@ -1,6 +1,7 @@
 class Solution:
     def isHappy(self, n: int) -> bool:
         slow, fast = n, n
+        #while fast > 0 also works
         while True:
             slow = self.getSquare(slow)
             fast = self.getSquare(self.getSquare(fast))

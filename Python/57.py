@@ -5,6 +5,7 @@ class Solution:
             res.append(newInterval)
             return res
         i = 0
+        #2020.05.14 remember plus and not inside if
         while i < len(intervals) and intervals[i][1] < newInterval[0]:
             res.append(intervals[i])
             i += 1

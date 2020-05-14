@@ -23,6 +23,7 @@ class Solution:
             second_half.next = first_half
             second_half = temp
         # set the next of the last node to 'None'
+        #2020.05.14 notice here
         if first_half is not None:
             first_half.next = None
 
