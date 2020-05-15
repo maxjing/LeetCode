@@ -13,6 +13,7 @@ class Solution:
     def pathsSum(self, node, pathSum):
         if node is None:
             return 0
+        #2020.05.15 totally forgot the following step
         pathSum = 10 * pathSum + node.val
 
         if node.left is None and node.right is None:
