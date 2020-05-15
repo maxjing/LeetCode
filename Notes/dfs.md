@@ -2,6 +2,8 @@
 
 ### 1. No DFS Helper
 
+Normally do two things: 1. check if root is null 2. check if node is leaf
+
 **LeetCode 112: Path Sum**
 
 ```python
@@ -52,7 +54,14 @@ def hasPathSum(self, root: TreeNode, sum: int) -> bool:
 
 ---
 
+
+
 ### 2. Global List
+
+1. need to record the path
+2. use global list, and being updated through dfs
+3. in the dfs do two things 1. check if root is null 2. check if node is leaf
+4. normally when return a list of paths, use global list （backtracking）
 
 **LeetCode 113: Path Sum II**
 
@@ -70,8 +79,6 @@ def dfs(self, node, target, currentPath, res):
   self.dfs(node.left, target - node.val, currentPath + [node.val], res)
   self.dfs(node.right, target - node.val, currentPath + [node.val], res)
 ```
-
-
 
 **LeetCode 257:Binary Tree Paths**
 
@@ -93,15 +100,18 @@ def dfs(self, node, target, currentPath, res):
         del currentPath[-1]
 ```
 
-Differences from 112 are:
 
-1. need to record the path
-2. use global list, and being updated through dfs
-3. Normally when return a list of paths, use global list （backtracking）
 
 ---
 
+
+
 ### 3. DFS Helper Contains Return
+
+1. there is a return in dfs method
+2. 当出现需要判断当前的node作为turning point或者不是的时候，需要2 steps:
+   - 判断当前与global res 大小，假设这个node就是终点
+   - 如果这个node的不是终点，那它需要返回给parent，就是最后的return， return给parent
 
 **LeetCode 543. Diameter of Binary Tree**
 
@@ -141,11 +151,4 @@ Differences from 112 are:
 ```
 
 
-
-Solutions of the two questions are similar, different from 112 and 113
-
-1. there is a return in dfs method
-2. 当出现需要判断当前的node作为turning point或者不是的时候，需要2 steps:
-   - 判断当前与global res 大小，假设这个node就是终点
-   - 如果这个弄的不是终点，那它需要返回给parent，就是最后的return， return给parent
 
