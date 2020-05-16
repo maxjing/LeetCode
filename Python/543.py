@@ -7,25 +7,19 @@
 
 
 class Solution:
-    def __init__(self):
-        self.treeDiameter = 0
-
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
-        self.calculate_height(root)
-        return self.treeDiameter
+        self.res = 0
+        return self.dfs(root)
 
-    def calculate_height(self, node):
+    def dfs(self, node):
         if node is None:
             return 0
-
-        leftTreeHeight = self.calculate_height(node.left)
-        rightTreeHeight = self.calculate_height(node.right)
-
-        diameter = leftTreeHeight + rightTreeHeight
+        left = self.dfs(node.left)
+        right = self.dfs(node.right)
         # update global diameter if use current node as the turning point(which can only use left and right)
-        self.treeDiameter = max(self.treeDiameter, diameter)
+        self.res = max(self.res, left + right)
         # pass the longest path to parent
-        return max(leftTreeHeight, rightTreeHeight) + 1
+        return max(left, right) + 1
 
 
 '''

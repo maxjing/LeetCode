@@ -10,6 +10,7 @@ class Solution:
             topEnd, endIndex = heappop(maxEndHeap)
             if -maxStartHeap[0][0] >= -topEnd:
                 # find the the interval that has the closest 'start'
+                # 2020.05.16 [1, 2] -> [2, 3] (2 <= 2) so here use >=
                 while maxStartHeap and -maxStartHeap[0][0] >= -topEnd:
                     topStart, startIndex = heappop(maxStartHeap)
                 result[endIndex] = startIndex

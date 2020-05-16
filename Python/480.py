@@ -17,6 +17,7 @@ class Solution:
                 else:
                     result[i - k + 1] = -self.maxHeap[0] / 1.0
                 elementToRemove = nums[i - k + 1]
+                # 2020.05.16 notice the negative sign
                 if elementToRemove <= -self.maxHeap[0]:
                     self.remove(self.maxHeap, -elementToRemove)
                 else:

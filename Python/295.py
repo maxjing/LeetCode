@@ -6,6 +6,7 @@ class MedianFinder:
 
     # o(logn)
     def addNum(self, num: int) -> None:
+        # 2020.05.16 [] will never be none so use not
         if not self.maxHeap or -self.maxHeap[0] >= num:
             heappush(self.maxHeap, -num)
         else:
