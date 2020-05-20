@@ -3,6 +3,7 @@ class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
         lo = 0
         hi = len(nums) - 1
+        #2020.05.18 cannot use l<= r return -1
         while lo < hi:
             mid = lo + (hi - lo) // 2
             if mid % 2 == 1:

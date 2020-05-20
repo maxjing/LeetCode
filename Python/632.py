@@ -5,6 +5,7 @@ class Solution:
         for list in nums:
             heappush(minHeap, (list[0], 0, list))
             currentMax = max(currentMax, list[0])
+        #2020.05.18 user global start end and currentMax
         rangeStart, rangeEnd = 0, math.inf
         while len(minHeap) == len(nums):
             num, i, list = heappop(minHeap)

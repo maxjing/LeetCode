@@ -15,6 +15,7 @@ class Solution:
         d = dummy
         minHeap = []
         for list in lists:
+            #2020.05.18 forgot this again
             if list is not None:
                 heappush(minHeap, list)
         while minHeap:

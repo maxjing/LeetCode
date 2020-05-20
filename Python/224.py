@@ -25,6 +25,7 @@ class Solution:
                 # prev value
                 res += stack.pop()
                 num = 0
+        #2020.05.18 return outside for loop
         return res + num * sign
 
 

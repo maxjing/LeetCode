@@ -13,6 +13,7 @@ class Solution:
         while maxHeap:
             freq, char = heappop(maxHeap)
             res.append(char)
+            #2020.05.18 just add to q everytime, and check when len(q) == k
             q.append((char, freq + 1))
             if len(q) == k:
                 char, freq = q.popleft()

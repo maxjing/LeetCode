@@ -28,6 +28,7 @@
 |   581   | Shortest Unsorted Continuous Subarray | [Python](./Python/581.py) |     Medium     |          | #         |
 |   33    | Search in Rotated Sorted Array        | [Python](./Python/33.py)  |     Medium     |          |
 |   278   | First Bad Version                     | [Python](./Python/278.py) |      Easy      |          |
+|   11   | Container With Most Water                   | [Python](./Python/11.py) |      Medium      |          |
 
 #### 3 - Fast & Slow pointers
 
@@ -113,6 +114,9 @@
 |   22    | Generate Parentheses     | [Python](./Python/22.py)  |     Medium     | DFS       | #         |
 |   320   | Generalized Abbreviation | [Python](./Python/320.py) |     Medium     | DFS       | ！        |
 |   733   | Flood Fill               | [Python](./Python/733.py) |     Medium     | DFS       |           |
+|   39   | Combination Sum           | [Python](./Python/39.py) |     Medium     | DFS       |           |
+|   40   | Combination Sum II          | [Python](./Python/40.py) |     Medium     | DFS       |           |
+
 
 #### 11 - Modified Binary Search
 
@@ -167,3 +171,5 @@
 |   224   | Basic Calculator                   | [Python](./Python/224.py) |      Hard      |          |           | # |
 |   208   | Implement Trie (Prefix Tree)       | [Python](./Python/208.py) |     Medium     |          |           |
 |   328   | Odd Even Linked List               | [Python](./Python/328.py) |     Medium     |          |           |
+|   901   | Online Stock Span              | [Python](./Python/901.py) |     Medium     |          |           |
+|   31  | Next Permutation             | [Python](./Python/31.py) |     Medium     |          |           |
