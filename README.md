@@ -79,6 +79,7 @@
 |   116   | Populating Next Right Pointers in Each Node | [Python](./Python/116.py) |      Easy      | BFS       | #         |
 |   199   | Binary Tree Right Side View                 | [Python](./Python/199.py) |     Medium     | BFS       |
 |   993   | Cousins in Binary Tree                      | [Python](./Python/993.py) |      Easy      | BFS + DFS |
+|   230   | Kth Smallest Element in a BST                      | [Python](./Python/230.py) |      Medium      | BFS |
 
 #### 8 - Tree Depth First Search
 
@@ -173,3 +174,22 @@
 |   328   | Odd Even Linked List               | [Python](./Python/328.py) |     Medium     |          |           |
 |   901   | Online Stock Span              | [Python](./Python/901.py) |     Medium     |          |           |
 |   31  | Next Permutation             | [Python](./Python/31.py) |     Medium     |          |           |
+
+#### - Array
+
+| **No.** | **Title**                          |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :--------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   48   | Rotate Image           | [Python](./Python/48.py) |     Medium     |     |           |
+|   54   | Spiral Matrix           | [Python](./Python/54.py) |     Medium     |     |           |
+|   59   | Spiral Matrix II          | [Python](./Python/59.py) |     Medium     |     |           | 
+|   73   |  Set Matrix Zeroes          | [Python](./Python/73.py) |     Medium     |     |           |
+
+
+#### - DP
+
+| **No.** | **Title**                          |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :--------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   62   | Unique Paths          | [Python](./Python/62.py) |     Medium     |     |           |
+|   64   | Minimum Path Sum          | [Python](./Python/64.py) |     Medium     |     |           |
+
+
