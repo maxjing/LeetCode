@@ -191,5 +191,12 @@
 | :-----: | :--------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
 |   62   | Unique Paths          | [Python](./Python/62.py) |     Medium     |     |           |
 |   64   | Minimum Path Sum          | [Python](./Python/64.py) |     Medium     |     |           |
+|   221   | Maximal Square          | [Python](./Python/221.py) |     Medium     |     |           |
+|   70   | Climbing Stairs          | [Python](./Python/70.py) |     Easy     |     |           |
+|   120   | Triangle          | [Python](./Python/120.py) |     Medium     |     |           |
+
+
+
+
 
 
