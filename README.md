@@ -128,6 +128,9 @@
 |   540   | Single Element in a Sorted Array                        | [Python](./Python/540.py)  |      Easy      |          |           |
 |  1200   | Minimum Absolute Difference                             | [Python](./Python/1200.py) |      Easy      |          |           |
 |   153   | Find Minimum in Rotated Sorted Array                    | [Python](./Python/153.py)  |     Medium     |          |           |
+|   528   | Random Pick with Weight                                 | [Python](./Python/528.py)  |     Medium     |          |           |
+|   162   | Find Peak Element                                       | [Python](./Python/162.py)  |     Medium     |          |           |
+|   852   | Peak Index in a Mountain Array                          | [Python](./Python/852.py)  |      Easy      |          |           |
 
 #### 12 - Bitwise XOR
 
@@ -201,4 +204,13 @@
 |   415   | Add Strings       | [Python](./Python/415.py) |      Easy      |          |           |
 |   205   | Isomorphic String | [Python](./Python/205.py) |      Easy      |          |           |
 |   293   | Flip Game         | [Python](./Python/293.py) |      Easy      |          |           |
-|   294   | Flip Game II      | [Python](./Python/294.py) |     Medium     |    DP    |           |
+|   294   | Flip Game II      | [Python](./Python/294.py) |     Medium     | DP       |           |
+
+#### - LinkedList
+
+| **No.** | **Title**                        |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   445   | Add Two Numbers II               | [Python](./Python/445.py) |     Medium     |          |           |
+|   21    | Merge Two Sorted Lists           | [Python](./Python/21.py)  |      Easy      |          |           |
+|   160   | Intersection of Two Linked Lists | [Python](./Python/160.py) |      Easy      |          |           |
+|   369   | Plus One Linked List             | [Python](./Python/369.py) |     Medium     |          |           |
