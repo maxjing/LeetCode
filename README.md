@@ -28,7 +28,7 @@
 |   581   | Shortest Unsorted Continuous Subarray | [Python](./Python/581.py) |     Medium     |          | #         |
 |   33    | Search in Rotated Sorted Array        | [Python](./Python/33.py)  |     Medium     |          |
 |   278   | First Bad Version                     | [Python](./Python/278.py) |      Easy      |          |
-|   11   | Container With Most Water                   | [Python](./Python/11.py) |      Medium      |          |
+|   11    | Container With Most Water             | [Python](./Python/11.py)  |     Medium     |          |
 
 #### 3 - Fast & Slow pointers
 
@@ -79,7 +79,7 @@
 |   116   | Populating Next Right Pointers in Each Node | [Python](./Python/116.py) |      Easy      | BFS       | #         |
 |   199   | Binary Tree Right Side View                 | [Python](./Python/199.py) |     Medium     | BFS       |
 |   993   | Cousins in Binary Tree                      | [Python](./Python/993.py) |      Easy      | BFS + DFS |
-|   230   | Kth Smallest Element in a BST                      | [Python](./Python/230.py) |      Medium      | BFS |
+|   230   | Kth Smallest Element in a BST               | [Python](./Python/230.py) |     Medium     | BFS       |
 
 #### 8 - Tree Depth First Search
 
@@ -115,9 +115,8 @@
 |   22    | Generate Parentheses     | [Python](./Python/22.py)  |     Medium     | DFS       | #         |
 |   320   | Generalized Abbreviation | [Python](./Python/320.py) |     Medium     | DFS       | ！        |
 |   733   | Flood Fill               | [Python](./Python/733.py) |     Medium     | DFS       |           |
-|   39   | Combination Sum           | [Python](./Python/39.py) |     Medium     | DFS       |           |
-|   40   | Combination Sum II          | [Python](./Python/40.py) |     Medium     | DFS       |           |
-
+|   39    | Combination Sum          | [Python](./Python/39.py)  |     Medium     | DFS       |           |
+|   40    | Combination Sum II       | [Python](./Python/40.py)  |     Medium     | DFS       |           |
 
 #### 11 - Modified Binary Search
 
@@ -172,31 +171,34 @@
 |   224   | Basic Calculator                   | [Python](./Python/224.py) |      Hard      |          |           | # |
 |   208   | Implement Trie (Prefix Tree)       | [Python](./Python/208.py) |     Medium     |          |           |
 |   328   | Odd Even Linked List               | [Python](./Python/328.py) |     Medium     |          |           |
-|   901   | Online Stock Span              | [Python](./Python/901.py) |     Medium     |          |           |
-|   31  | Next Permutation             | [Python](./Python/31.py) |     Medium     |          |           |
-
-#### - Array
-
-| **No.** | **Title**                          |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :--------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
-|   48   | Rotate Image           | [Python](./Python/48.py) |     Medium     |     |           |
-|   54   | Spiral Matrix           | [Python](./Python/54.py) |     Medium     |     |           |
-|   59   | Spiral Matrix II          | [Python](./Python/59.py) |     Medium     |     |           | 
-|   73   |  Set Matrix Zeroes          | [Python](./Python/73.py) |     Medium     |     |           |
-
+|   901   | Online Stock Span                  | [Python](./Python/901.py) |     Medium     |          |           |
+|   31    | Next Permutation                   | [Python](./Python/31.py)  |     Medium     |          |           |
 
 #### - DP
 
-| **No.** | **Title**                          |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :--------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
-|   62   | Unique Paths          | [Python](./Python/62.py) |     Medium     |     |           |
-|   64   | Minimum Path Sum          | [Python](./Python/64.py) |     Medium     |     |           |
-|   221   | Maximal Square          | [Python](./Python/221.py) |     Medium     |     |           |
-|   70   | Climbing Stairs          | [Python](./Python/70.py) |     Easy     |     |           |
-|   120   | Triangle          | [Python](./Python/120.py) |     Medium     |     |           |
+| **No.** | **Title**        |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :--------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   62    | Unique Paths     | [Python](./Python/62.py)  |     Medium     |          |           |
+|   64    | Minimum Path Sum | [Python](./Python/64.py)  |     Medium     |          |           |
+|   221   | Maximal Square   | [Python](./Python/221.py) |     Medium     |          |           |
+|   70    | Climbing Stairs  | [Python](./Python/70.py)  |      Easy      |          |           |
+|   120   | Triangle         | [Python](./Python/120.py) |     Medium     |          |           |
+|   509   | Fibonacci Number | [Python](./Python/509.py) |      Easy      |          |           |
 
+#### - Array
 
+| **No.** | **Title**         |       **Solution**       | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :---------------- | :----------------------: | :------------: | :------- | :-------- |
+|   48    | Rotate Image      | [Python](./Python/48.py) |     Medium     |          |           |
+|   54    | Spiral Matrix     | [Python](./Python/54.py) |     Medium     |          |           |
+|   59    | Spiral Matrix II  | [Python](./Python/59.py) |     Medium     |          |           |
+|   73    | Set Matrix Zeroes | [Python](./Python/73.py) |     Medium     |          |           |
 
+#### - String
 
-
-
+| **No.** | **Title**         |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :---------------- | :-----------------------: | :------------: | :------- | :-------- |
+|   415   | Add Strings       | [Python](./Python/415.py) |      Easy      |          |           |
+|   205   | Isomorphic String | [Python](./Python/205.py) |      Easy      |          |           |
+|   293   | Flip Game         | [Python](./Python/293.py) |      Easy      |          |           |
+|   294   | Flip Game II      | [Python](./Python/294.py) |     Medium     |    DP    |           |
