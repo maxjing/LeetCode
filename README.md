@@ -214,3 +214,19 @@
 |   21    | Merge Two Sorted Lists           | [Python](./Python/21.py)  |      Easy      |          |           |
 |   160   | Intersection of Two Linked Lists | [Python](./Python/160.py) |      Easy      |          |           |
 |   369   | Plus One Linked List             | [Python](./Python/369.py) |     Medium     |          |           |
+
+#### - Facebook
+
+| **No.** | **Title**                                   |        **Solution**        | **Difficulty** | **Tags**       | **Notes** |
+| :-----: | :------------------------------------------ | :------------------------: | :------------: | :------------- | :-------- |
+|   953   | Verifying an Alien Dictionary               | [Python](./Python/953.py)  |      Easy      |                |           |
+|  1249   | Minimum Remove to Make Valid Parentheses    | [Python](./Python/1249.py) |     Medium     |                |           |
+|   560   | Subarray Sum Equals K                       | [Python](./Python/560.py)  |     Medium     |                |           |
+|   973   | K Closest Points to Origin                  | [Python](./Python/973.py)  |     Medium     | Max Heap       | dup       |
+|   680   | Valid Palindrome II                         | [Python](./Python/680.py)  |      Hard      |                |           |
+|   273   | Integer to English Words                    | [Python](./Python/273.py)  |      Hard      | not understand |           |
+|   269   | Alien Dictionary                            | [Python](./Python/269.py)  |      Easy      | not understand |           |
+|   238   | Product of Array Except Self                | [Python](./Python/238.py)  |     Medium     |                |           |
+|   415   | Add Strings                                 | [Python](./Python/415.py)  |      Easy      |                |           |
+|   199   | Binary Tree Right Side View                 | [Python](./Python/199.py)  |     Medium     | BFS            | dup       |
+|   211   | Add and Search Word - Data structure design | [Python](./Python/211.py)  |     Medium     | Trie           |           |
