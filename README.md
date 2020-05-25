@@ -230,3 +230,11 @@
 |   415   | Add Strings                                 | [Python](./Python/415.py)  |      Easy      |                |           |
 |   199   | Binary Tree Right Side View                 | [Python](./Python/199.py)  |     Medium     | BFS            | dup       |
 |   211   | Add and Search Word - Data structure design | [Python](./Python/211.py)  |     Medium     | Trie           |           |
+|   124   | Binary Tree Maximum Path Sum                                                    | [Python](./Python/124.py) |      Hard      | DFS Global dup    | ##        |
+|   23    | Merge k Sorted Lists                          | [Python](./Python/23.py)  |      Hard      | Heap     |     dup      |
+|   986   | Interval List Intersections | [Python](./Python/986.py) |     Medium     |          | dup        |
+|   523   | Continuous Subarray Sum | [Python](./Python/523.py) |     Medium     |       tricky   |         |
+|   340   | Longest Substring with At Most K Distinct Characters | [Python](./Python/340.py)  |      Hard      | HashMap  | dup       |
+|   125   | Valid Palindrome | [Python](./Python/125.py)  |      Easy |   |        |
+|   278   | First Bad Version                     | [Python](./Python/278.py) |      Easy      |          dup|
+|   349   | Intersection of Two Arrays                     | [Python](./Python/349.py) |      Easy      |          |

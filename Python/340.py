@@ -5,6 +5,7 @@ class Solution:
         for r in range(len(s)):
             rightChar = s[r]
             d[rightChar] = d.get(rightChar, 0) + 1
+            #2020.05.24 use if is also fine, look at #424, 340 care d size, 424 no
             while len(d) > k:
                 leftChar = s[l]
                 d[leftChar] -= 1

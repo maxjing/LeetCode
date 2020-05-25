@@ -6,7 +6,7 @@ class Solution:
             rightChar = s[r]
             d[rightChar] = d.get(rightChar, 0) + 1
             maxRepeat = max(maxRepeat, d[rightChar])
-
+        #2020.05.24 #340 only cares about d value
             while r - l + 1 - maxRepeat > k:
                 leftChar = s[l]
                 d[leftChar] -= 1
