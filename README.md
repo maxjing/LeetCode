@@ -217,24 +217,33 @@
 
 #### - Facebook
 
-| **No.** | **Title**                                   |        **Solution**        | **Difficulty** | **Tags**       | **Notes** |
-| :-----: | :------------------------------------------ | :------------------------: | :------------: | :------------- | :-------- |
-|   953   | Verifying an Alien Dictionary               | [Python](./Python/953.py)  |      Easy      |                |           |
-|  1249   | Minimum Remove to Make Valid Parentheses    | [Python](./Python/1249.py) |     Medium     |                |           |
-|   560   | Subarray Sum Equals K                       | [Python](./Python/560.py)  |     Medium     |                |           |
-|   973   | K Closest Points to Origin                  | [Python](./Python/973.py)  |     Medium     | Max Heap       | dup       |
-|   680   | Valid Palindrome II                         | [Python](./Python/680.py)  |      Hard      |                |           |
-|   273   | Integer to English Words                    | [Python](./Python/273.py)  |      Hard      | not understand |           |
-|   269   | Alien Dictionary                            | [Python](./Python/269.py)  |      Easy      | not understand |           |
-|   238   | Product of Array Except Self                | [Python](./Python/238.py)  |     Medium     |                |           |
-|   415   | Add Strings                                 | [Python](./Python/415.py)  |      Easy      |                |           |
-|   199   | Binary Tree Right Side View                 | [Python](./Python/199.py)  |     Medium     | BFS            | dup       |
-|   211   | Add and Search Word - Data structure design | [Python](./Python/211.py)  |     Medium     | Trie           |           |
-|   124   | Binary Tree Maximum Path Sum                                                    | [Python](./Python/124.py) |      Hard      | DFS Global dup    | ##        |
-|   23    | Merge k Sorted Lists                          | [Python](./Python/23.py)  |      Hard      | Heap     |     dup      |
-|   986   | Interval List Intersections | [Python](./Python/986.py) |     Medium     |          | dup        |
-|   523   | Continuous Subarray Sum | [Python](./Python/523.py) |     Medium     |       tricky   |         |
-|   340   | Longest Substring with At Most K Distinct Characters | [Python](./Python/340.py)  |      Hard      | HashMap  | dup       |
-|   125   | Valid Palindrome | [Python](./Python/125.py)  |      Easy |   |        |
-|   278   | First Bad Version                     | [Python](./Python/278.py) |      Easy      |          dup|
-|   349   | Intersection of Two Arrays                     | [Python](./Python/349.py) |      Easy      |          |
+| **No.** | **Title**                                            |        **Solution**        | **Difficulty** | **Tags**       | **Notes** |
+| :-----: | :--------------------------------------------------- | :------------------------: | :------------: | :------------- | :-------- |
+|   953   | Verifying an Alien Dictionary                        | [Python](./Python/953.py)  |      Easy      |                |           |
+|  1249   | Minimum Remove to Make Valid Parentheses             | [Python](./Python/1249.py) |     Medium     |                |           |
+|   560   | Subarray Sum Equals K                                | [Python](./Python/560.py)  |     Medium     |                |           |
+|   973   | K Closest Points to Origin                           | [Python](./Python/973.py)  |     Medium     | Max Heap       | dup       |
+|   680   | Valid Palindrome II                                  | [Python](./Python/680.py)  |      Hard      |                |           |
+|   273   | Integer to English Words                             | [Python](./Python/273.py)  |      Hard      | not understand |           |
+|   269   | Alien Dictionary                                     | [Python](./Python/269.py)  |      Easy      | not understand |           |
+|   238   | Product of Array Except Self                         | [Python](./Python/238.py)  |     Medium     |                |           |
+|   415   | Add Strings                                          | [Python](./Python/415.py)  |      Easy      |                |           |
+|   199   | Binary Tree Right Side View                          | [Python](./Python/199.py)  |     Medium     | BFS            | dup       |
+|   211   | Add and Search Word - Data structure design          | [Python](./Python/211.py)  |     Medium     | Trie           |           |
+|   124   | Binary Tree Maximum Path Sum                         | [Python](./Python/124.py)  |      Hard      | DFS Global dup | ##        |
+|   23    | Merge k Sorted Lists                                 |  [Python](./Python/23.py)  |      Hard      | Heap           | dup       |
+|   986   | Interval List Intersections                          | [Python](./Python/986.py)  |     Medium     |                | dup       |
+|   523   | Continuous Subarray Sum                              | [Python](./Python/523.py)  |     Medium     | tricky         |           |
+|   340   | Longest Substring with At Most K Distinct Characters | [Python](./Python/340.py)  |      Hard      | HashMap        | dup       |
+|   125   | Valid Palindrome                                     | [Python](./Python/125.py)  |      Easy      |                |           |
+|   278   | First Bad Version                                    | [Python](./Python/278.py)  |      Easy      | dup            |
+|   349   | Intersection of Two Arrays                           | [Python](./Python/349.py)  |      Easy      |                |
+|   -2   | Sum To 100                           | [Python](./Python/-2.py)  |            |                |
+|   670   | Maximum Swap                          | [Python](./Python/670.py)  |     Medium       |                |
+|   88   | Merge Sorted Array                         | [Python](./Python/88.py)  |     Easy       |                |
+|   282   | Expression Add Operators                         | [Python](./Python/282.py)  |     Hard       |        not understand        |
+|   215   | Kth Largest Element in an Array   | [Python](./Python/215.py) |     Medium     | Min Heap |      dup     |
+|   938   | Range Sum of BST   | [Python](./Python/938.py) |     Easy     |  |           |
+|   173   | Binary Search Tree Iterator   | [Python](./Python/173.py) |     Medium     |  |           |
+|   543   | Diameter of Binary Tree                                                         | [Python](./Python/543.py) |     Medium     | DFS Global    | dup        |
+|   124   | Binary Tree Maximum Path Sum                                                    | [Python](./Python/124.py) |      Hard      | DFS Global    | dup        |
