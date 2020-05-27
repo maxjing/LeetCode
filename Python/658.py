@@ -33,6 +33,7 @@ class Solution:
         maxHeap = []
         arr.sort()
         for n in arr:
+            #-n is because when there is a tie, choose smaller one
             heappush(maxHeap, (-abs(n - x), -n))
             if len(maxHeap) > k:
                 heappop(maxHeap)
@@ -41,3 +42,8 @@ class Solution:
             res.append(-heappop(maxHeap)[1])
         res.sort()
         return res
+
+'''
+follow up: optimize
+1. use binary search to find target index, range only need to process index - k and index + k
+'''

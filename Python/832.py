@@ -5,6 +5,7 @@ class Solution:
             l.reverse()
             sublist = []
             for n in l:
+                #1->0 0->1
                 sublist.append(n ^ 1)
             res.append(sublist)
 

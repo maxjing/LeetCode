@@ -9,6 +9,7 @@ class Solution:
 
     def searchLeft(self, nums, target):
         l, r = 0, len(nums) - 1
+        #2020.05.27 remember l <= r
         while l <= r:
             mid = l + (r - l) // 2
             if nums[mid] == target:
