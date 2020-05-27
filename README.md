@@ -238,12 +238,25 @@
 |   125   | Valid Palindrome                                     | [Python](./Python/125.py)  |      Easy      |                |           |
 |   278   | First Bad Version                                    | [Python](./Python/278.py)  |      Easy      | dup            |
 |   349   | Intersection of Two Arrays                           | [Python](./Python/349.py)  |      Easy      |                |
-|   -2   | Sum To 100                           | [Python](./Python/-2.py)  |            |                |
-|   670   | Maximum Swap                          | [Python](./Python/670.py)  |     Medium       |                |
-|   88   | Merge Sorted Array                         | [Python](./Python/88.py)  |     Easy       |                |
-|   282   | Expression Add Operators                         | [Python](./Python/282.py)  |     Hard       |        not understand        |
-|   215   | Kth Largest Element in an Array   | [Python](./Python/215.py) |     Medium     | Min Heap |      dup     |
-|   938   | Range Sum of BST   | [Python](./Python/938.py) |     Easy     |  |           |
-|   173   | Binary Search Tree Iterator   | [Python](./Python/173.py) |     Medium     |  |           |
-|   543   | Diameter of Binary Tree                                                         | [Python](./Python/543.py) |     Medium     | DFS Global    | dup        |
-|   124   | Binary Tree Maximum Path Sum                                                    | [Python](./Python/124.py) |      Hard      | DFS Global    | dup        |
+|   -2    | Sum To 100                                           |  [Python](./Python/-2.py)  |                |                |
+|   670   | Maximum Swap                                         | [Python](./Python/670.py)  |     Medium     |                |
+|   88    | Merge Sorted Array                                   |  [Python](./Python/88.py)  |      Easy      |                |
+|   282   | Expression Add Operators                             | [Python](./Python/282.py)  |      Hard      | not understand |
+|   215   | Kth Largest Element in an Array                      | [Python](./Python/215.py)  |     Medium     | Min Heap       | dup       |
+|   938   | Range Sum of BST                                     | [Python](./Python/938.py)  |      Easy      |                |           |
+|   173   | Binary Search Tree Iterator                          | [Python](./Python/173.py)  |     Medium     |                |           |
+|   543   | Diameter of Binary Tree                              | [Python](./Python/543.py)  |     Medium     | DFS Global     | dup       |
+|   124   | Binary Tree Maximum Path Sum                         | [Python](./Python/124.py)  |      Hard      | DFS Global     | dup       |
+|   621   | Task Scheduler                                       | [Python](./Python/621.py)  |     Medium     | max heap       |           |
+|   270   | Closest Binary Search Tree Value                     | [Python](./Python/270.py)  |      Easy      |                |           |
+|   31    | Next Permutation                                     |  [Python](./Python/31.py)  |     Medium     |                | dup       |
+|   721   | Accounts Merge                                       | [Python](./Python/721.py)  |     Medium     |                | DFS, UF   |
+|   249   | Group Shifted Strings                                | [Python](./Python/721.py)  |     Medium     |                |           |
+|   42    | Trapping Rain Water                                  |  [Python](./Python/42.py)  |      Hard      |                |           |
+|   56    | Merge Intervals                                      |  [Python](./Python/56.py)  |     Medium     |                | ##        | dup |
+|   896   | Monotonic Array                                      | [Python](./Python/896.py)  |      Easy      |                |           |
+|   785   | Is Graph Bipartite?                                  | [Python](./Python/785.py)  |     Medium     |                |           |
+|   636   | Exclusive Time of Functions                          | [Python](./Python/636.py)  |     Medium     |                |           |
+|   498   | Diagonal Traverse                                    | [Python](./Python/498.py)  |     Medium     |                |           |
+|   398   | Random Pick Index                                    | [Python](./Python/398.py)  |     Medium     |                |           |
+|   139   | Word Break                                           | [Python](./Python/139.py)  |     Medium     |                |           |

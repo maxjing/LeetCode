@@ -3,7 +3,6 @@ class Solution:
         d = {}
         for c in S:
             d[c] = d.get(c, 0) + 1
-        res = []
         maxHeap = []
         for key, value in d.items():
             heappush(maxHeap, (-value, key))
