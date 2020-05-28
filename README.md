@@ -217,59 +217,65 @@
 
 #### - Facebook
 
-| **No.** | **Title**                                               |        **Solution**        | **Difficulty** | **Tags**       | **Notes**         |
-| :-----: | :------------------------------------------------------ | :------------------------: | :------------: | :------------- | :---------------- |
-|   953   | Verifying an Alien Dictionary                           | [Python](./Python/953.py)  |      Easy      |                |                   |
-|  1249   | Minimum Remove to Make Valid Parentheses                | [Python](./Python/1249.py) |     Medium     |                |                   |
-|   560   | Subarray Sum Equals K                                   | [Python](./Python/560.py)  |     Medium     |                |                   |
-|   973   | K Closest Points to Origin                              | [Python](./Python/973.py)  |     Medium     | Max Heap       | dup               |
-|   680   | Valid Palindrome II                                     | [Python](./Python/680.py)  |      Hard      |                |                   |
-|   273   | Integer to English Words                                | [Python](./Python/273.py)  |      Hard      | not understand |                   |
-|   269   | Alien Dictionary                                        | [Python](./Python/269.py)  |      Easy      | not understand |                   |
-|   238   | Product of Array Except Self                            | [Python](./Python/238.py)  |     Medium     |                |                   |
-|   415   | Add Strings                                             | [Python](./Python/415.py)  |      Easy      |                |                   |
-|   199   | Binary Tree Right Side View                             | [Python](./Python/199.py)  |     Medium     | BFS            | dup               |
-|   211   | Add and Search Word - Data structure design             | [Python](./Python/211.py)  |     Medium     | Trie           |                   |
-|   124   | Binary Tree Maximum Path Sum                            | [Python](./Python/124.py)  |      Hard      | DFS Global dup | ##                |
-|   23    | Merge k Sorted Lists                                    |  [Python](./Python/23.py)  |      Hard      | Heap           | dup               |
-|   986   | Interval List Intersections                             | [Python](./Python/986.py)  |     Medium     |                | dup               |
-|   523   | Continuous Subarray Sum                                 | [Python](./Python/523.py)  |     Medium     | tricky         |                   |
-|   340   | Longest Substring with At Most K Distinct Characters    | [Python](./Python/340.py)  |      Hard      | HashMap        | dup               |
-|   125   | Valid Palindrome                                        | [Python](./Python/125.py)  |      Easy      |                |                   |
+| **No.** | **Title**                                               |        **Solution**        | **Difficulty** | **Tags**       | **Notes**          |
+| :-----: | :------------------------------------------------------ | :------------------------: | :------------: | :------------- | :----------------- |
+|   953   | Verifying an Alien Dictionary                           | [Python](./Python/953.py)  |      Easy      |                |                    |
+|  1249   | Minimum Remove to Make Valid Parentheses                | [Python](./Python/1249.py) |     Medium     |                |                    |
+|   560   | Subarray Sum Equals K                                   | [Python](./Python/560.py)  |     Medium     |                |                    |
+|   973   | K Closest Points to Origin                              | [Python](./Python/973.py)  |     Medium     | Max Heap       | dup                |
+|   680   | Valid Palindrome II                                     | [Python](./Python/680.py)  |      Hard      |                |                    |
+|   273   | Integer to English Words                                | [Python](./Python/273.py)  |      Hard      | not understand |                    |
+|   269   | Alien Dictionary                                        | [Python](./Python/269.py)  |      Easy      | not understand |                    |
+|   238   | Product of Array Except Self                            | [Python](./Python/238.py)  |     Medium     |                |                    |
+|   415   | Add Strings                                             | [Python](./Python/415.py)  |      Easy      |                |                    |
+|   199   | Binary Tree Right Side View                             | [Python](./Python/199.py)  |     Medium     | BFS            | dup                |
+|   211   | Add and Search Word - Data structure design             | [Python](./Python/211.py)  |     Medium     | Trie           |                    |
+|   124   | Binary Tree Maximum Path Sum                            | [Python](./Python/124.py)  |      Hard      | DFS Global dup | ##                 |
+|   23    | Merge k Sorted Lists                                    |  [Python](./Python/23.py)  |      Hard      | Heap           | dup                |
+|   986   | Interval List Intersections                             | [Python](./Python/986.py)  |     Medium     |                | dup                |
+|   523   | Continuous Subarray Sum                                 | [Python](./Python/523.py)  |     Medium     | tricky         |                    |
+|   340   | Longest Substring with At Most K Distinct Characters    | [Python](./Python/340.py)  |      Hard      | HashMap        | dup                |
+|   125   | Valid Palindrome                                        | [Python](./Python/125.py)  |      Easy      |                |                    |
 |   278   | First Bad Version                                       | [Python](./Python/278.py)  |      Easy      | dup            |
 |   349   | Intersection of Two Arrays                              | [Python](./Python/349.py)  |      Easy      |                |
 |   -2    | Sum To 100                                              |  [Python](./Python/-2.py)  |                |                |
 |   670   | Maximum Swap                                            | [Python](./Python/670.py)  |     Medium     |                |
 |   88    | Merge Sorted Array                                      |  [Python](./Python/88.py)  |      Easy      |                |
 |   282   | Expression Add Operators                                | [Python](./Python/282.py)  |      Hard      | not understand |
-|   215   | Kth Largest Element in an Array                         | [Python](./Python/215.py)  |     Medium     | Min Heap       | dup               |
-|   938   | Range Sum of BST                                        | [Python](./Python/938.py)  |      Easy      |                |                   |
-|   173   | Binary Search Tree Iterator                             | [Python](./Python/173.py)  |     Medium     |                |                   |
-|   543   | Diameter of Binary Tree                                 | [Python](./Python/543.py)  |     Medium     | DFS Global     | dup               |
-|   124   | Binary Tree Maximum Path Sum                            | [Python](./Python/124.py)  |      Hard      | DFS Global     | dup               |
-|   621   | Task Scheduler                                          | [Python](./Python/621.py)  |     Medium     | max heap       |                   |
-|   270   | Closest Binary Search Tree Value                        | [Python](./Python/270.py)  |      Easy      |                |                   |
-|   31    | Next Permutation                                        |  [Python](./Python/31.py)  |     Medium     |                | dup               |
-|   721   | Accounts Merge                                          | [Python](./Python/721.py)  |     Medium     |                | DFS, UF           |
-|   249   | Group Shifted Strings                                   | [Python](./Python/721.py)  |     Medium     |                |                   |
-|   42    | Trapping Rain Water                                     |  [Python](./Python/42.py)  |      Hard      |                |                   |
-|   56    | Merge Intervals                                         |  [Python](./Python/56.py)  |     Medium     |                | ##                | dup |
-|   896   | Monotonic Array                                         | [Python](./Python/896.py)  |      Easy      |                |                   |
-|   785   | Is Graph Bipartite?                                     | [Python](./Python/785.py)  |     Medium     |                |                   |
-|   636   | Exclusive Time of Functions                             | [Python](./Python/636.py)  |     Medium     |                |                   |
-|   498   | Diagonal Traverse                                       | [Python](./Python/498.py)  |     Medium     |                |                   |
-|   398   | Random Pick Index                                       | [Python](./Python/398.py)  |     Medium     |                |                   |
-|   139   | Word Break                                              | [Python](./Python/139.py)  |     Medium     |                | dp not understand |
-|   50    | Pow(x, n)                                               |  [Python](./Python/50.py)  |     Medium     |                |                   |
-|   236   | Lowest Common Ancestor of a Binary Tree                 | [Python](./Python/236.py)  |     Medium     |                |                   |
-|   314   | Binary Tree Vertical Order Traversal                    | [Python](./Python/314.py)  |     Medium     |                |                   |
-|   987   | Vertical Order Traversal of a Binary Tree               | [Python](./Python/987.py)  |     Medium     |                |                   |
-|   767   | Reorganize String                                       | [Python](./Python/767.py)  |     Medium     | MaxHeap        | dup               |
-|   43    | Multiply Strings                                        |  [Python](./Python/43.py)  |     Medium     | MaxHeap        | dup               |
-|   29    | Divide Two Integers                                     |  [Python](./Python/29.py)  |     Medium     |                | tricky            |
-|   528   | Random Pick with Weight                                 | [Python](./Python/528.py)  |     Medium     |                | dup               |
-|   34    | Find First and Last Position of Element in Sorted Array |  [Python](./Python/34.py)  |     Medium     |                | dup               |
-|   33    | Search in Rotated Sorted Array        | [Python](./Python/33.py)  |     Medium     |          |   dup
-|   658   | Find K Closest Elements           | [Python](./Python/658.py) |     Medium     | Max Heap |  dup
-|   1060   | Missing Element in Sorted Array          | [Python](./Python/1060.py) |     Medium     |   |  need to understand 
-|   419   | Battleships in a Board          | [Python](./Python/419.py) |     Medium     |   |  tricky   
+|   215   | Kth Largest Element in an Array                         | [Python](./Python/215.py)  |     Medium     | Min Heap       | dup                |
+|   938   | Range Sum of BST                                        | [Python](./Python/938.py)  |      Easy      |                |                    |
+|   173   | Binary Search Tree Iterator                             | [Python](./Python/173.py)  |     Medium     |                |                    |
+|   543   | Diameter of Binary Tree                                 | [Python](./Python/543.py)  |     Medium     | DFS Global     | dup                |
+|   124   | Binary Tree Maximum Path Sum                            | [Python](./Python/124.py)  |      Hard      | DFS Global     | dup                |
+|   621   | Task Scheduler                                          | [Python](./Python/621.py)  |     Medium     | max heap       |                    |
+|   270   | Closest Binary Search Tree Value                        | [Python](./Python/270.py)  |      Easy      |                |                    |
+|   31    | Next Permutation                                        |  [Python](./Python/31.py)  |     Medium     |                | dup                |
+|   721   | Accounts Merge                                          | [Python](./Python/721.py)  |     Medium     |                | DFS, UF            |
+|   249   | Group Shifted Strings                                   | [Python](./Python/721.py)  |     Medium     |                |                    |
+|   42    | Trapping Rain Water                                     |  [Python](./Python/42.py)  |      Hard      |                |                    |
+|   56    | Merge Intervals                                         |  [Python](./Python/56.py)  |     Medium     |                | ##                 | dup |
+|   896   | Monotonic Array                                         | [Python](./Python/896.py)  |      Easy      |                |                    |
+|   785   | Is Graph Bipartite?                                     | [Python](./Python/785.py)  |     Medium     |                |                    |
+|   636   | Exclusive Time of Functions                             | [Python](./Python/636.py)  |     Medium     |                |                    |
+|   498   | Diagonal Traverse                                       | [Python](./Python/498.py)  |     Medium     |                |                    |
+|   398   | Random Pick Index                                       | [Python](./Python/398.py)  |     Medium     |                |                    |
+|   139   | Word Break                                              | [Python](./Python/139.py)  |     Medium     |                | dp not understand  |
+|   50    | Pow(x, n)                                               |  [Python](./Python/50.py)  |     Medium     |                |                    |
+|   236   | Lowest Common Ancestor of a Binary Tree                 | [Python](./Python/236.py)  |     Medium     |                |                    |
+|   314   | Binary Tree Vertical Order Traversal                    | [Python](./Python/314.py)  |     Medium     |                |                    |
+|   987   | Vertical Order Traversal of a Binary Tree               | [Python](./Python/987.py)  |     Medium     |                |                    |
+|   767   | Reorganize String                                       | [Python](./Python/767.py)  |     Medium     | MaxHeap        | dup                |
+|   43    | Multiply Strings                                        |  [Python](./Python/43.py)  |     Medium     | MaxHeap        | dup                |
+|   29    | Divide Two Integers                                     |  [Python](./Python/29.py)  |     Medium     |                | tricky             |
+|   528   | Random Pick with Weight                                 | [Python](./Python/528.py)  |     Medium     |                | dup                |
+|   34    | Find First and Last Position of Element in Sorted Array |  [Python](./Python/34.py)  |     Medium     |                | dup                |
+|   33    | Search in Rotated Sorted Array                          |  [Python](./Python/33.py)  |     Medium     |                | dup                |
+|   658   | Find K Closest Elements                                 | [Python](./Python/658.py)  |     Medium     | Max Heap       | dup                |
+|  1060   | Missing Element in Sorted Array                         | [Python](./Python/1060.py) |     Medium     |                | need to understand |
+|   419   | Battleships in a Board                                  | [Python](./Python/419.py)  |     Medium     |                | trickyG            |
+|   339   | Nested List Weight Sum                                  | [Python](./Python/339.py)  |      Easy      |                | dfs                |
+|   304   | Range Sum Query 2D - Immutable                          | [Python](./Python/304.py)  |     Medium     |                | dp                 |
+|  1026   | Maximum Difference Between Node and Ancestor            | [Python](./Python/1026.py) |     Medium     |                |                    |
+|  1123   | Lowest Common Ancestor of Deepest Leaves                | [Python](./Python/1123.py) |     Medium     |                |                    |
+|  1197   | Minimum Knight Moves                                    | [Python](./Python/1197.py) |     Medium     |                |                    |
+|   286   | Walls and Gates                                         | [Python](./Python/286.py)  |     Medium     |                |                    |
