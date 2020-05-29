@@ -221,7 +221,6 @@
 | :-----: | :------------------------------------------------------ | :------------------------: | :------------: | :------------- | :----------------- |
 |   953   | Verifying an Alien Dictionary                           | [Python](./Python/953.py)  |      Easy      |                |                    |
 |  1249   | Minimum Remove to Make Valid Parentheses                | [Python](./Python/1249.py) |     Medium     |                |                    |
-|   560   | Subarray Sum Equals K                                   | [Python](./Python/560.py)  |     Medium     |                |                    |
 |   973   | K Closest Points to Origin                              | [Python](./Python/973.py)  |     Medium     | Max Heap       | dup                |
 |   680   | Valid Palindrome II                                     | [Python](./Python/680.py)  |      Hard      |                |                    |
 |   273   | Integer to English Words                                | [Python](./Python/273.py)  |      Hard      | not understand |                    |
@@ -233,6 +232,7 @@
 |   124   | Binary Tree Maximum Path Sum                            | [Python](./Python/124.py)  |      Hard      | DFS Global dup | ##                 |
 |   23    | Merge k Sorted Lists                                    |  [Python](./Python/23.py)  |      Hard      | Heap           | dup                |
 |   986   | Interval List Intersections                             | [Python](./Python/986.py)  |     Medium     |                | dup                |
+|   560   | Subarray Sum Equals K                                   | [Python](./Python/560.py)  |     Medium     | tricky         |                    |
 |   523   | Continuous Subarray Sum                                 | [Python](./Python/523.py)  |     Medium     | tricky         |                    |
 |   340   | Longest Substring with At Most K Distinct Characters    | [Python](./Python/340.py)  |      Hard      | HashMap        | dup                |
 |   125   | Valid Palindrome                                        | [Python](./Python/125.py)  |      Easy      |                |                    |
@@ -257,7 +257,7 @@
 |   896   | Monotonic Array                                         | [Python](./Python/896.py)  |      Easy      |                |                    |
 |   785   | Is Graph Bipartite?                                     | [Python](./Python/785.py)  |     Medium     |                |                    |
 |   636   | Exclusive Time of Functions                             | [Python](./Python/636.py)  |     Medium     |                |                    |
-|   498   | Diagonal Traverse                                       | [Python](./Python/498.py)  |     Medium     |                |                    |
+|   498   | Diagonal Traverse                                       | [Python](./Python/498.py)  |     Medium     |                | matrix             |
 |   398   | Random Pick Index                                       | [Python](./Python/398.py)  |     Medium     |                |                    |
 |   139   | Word Break                                              | [Python](./Python/139.py)  |     Medium     |                | dp not understand  |
 |   50    | Pow(x, n)                                               |  [Python](./Python/50.py)  |     Medium     |                |                    |
@@ -279,3 +279,15 @@
 |  1123   | Lowest Common Ancestor of Deepest Leaves                | [Python](./Python/1123.py) |     Medium     |                |                    |
 |  1197   | Minimum Knight Moves                                    | [Python](./Python/1197.py) |     Medium     |                |                    |
 |   286   | Walls and Gates                                         | [Python](./Python/286.py)  |     Medium     |                |                    |
+|   133   | Clone Graph                                             | [Python](./Python/133.py)  |     Medium     |                |                    |
+|   766   | Toeplitz Matrix                                         | [Python](./Python/766.py)  |      Easy      |                | matrix             |
+|   824   | Goat Latin                                              | [Python](./Python/824.py)  |      Easy      |                |                    |
+|   246   | Strobogrammatic Number                                  | [Python](./Python/246.py)  |      Easy      |                |                    |
+|  1428   | Leftmost Column with at Least a One                     | [Python](./Python/1428.py) |      Easy      |                |                    |
+|   247   | Strobogrammatic Number II                               | [Python](./Python/247.py)  |     Medium     |                |                    |
+|   616   | Add Bold Tag in String                                  | [Python](./Python/616.py)  |     Medium     |                |                    |
+|   348   | Design Tic-Tac-Toe                                      | [Python](./Python/348.py)  |     Medium     |                | matrix             |
+|   227   | Basic Calculator II                                     | [Python](./Python/227.py)  |     Medium     |                |                    |
+|   71    | Simplify Path                                           |  [Python](./Python/71.py)  |     Medium     |                |                    |
+|   825   | Friends Of Appropriate Ages                             | [Python](./Python/825.py)  |     Medium     |                |                    |
+|   138   | Copy List with Random Pointer                           | [Python](./Python/138.py)  |     Medium     |                |                    |

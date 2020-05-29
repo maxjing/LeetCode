@@ -1,22 +1,17 @@
 class Solution:
     def isAlienSorted(self, words: List[str], order: str) -> bool:
-        """
-        :type words: List[str]
-        :type order: str
-        :rtype: bool
-        """
         d = {}
         for i, c in enumerate(order):
             d[c] = i
-        new_words = []
+        list = []
         for w in words:
-            new = []
+            sublist = []
             for c in w:
-                new.append(d[c])
-            new_words.append(new)
-        #2020.05.24 zip, combine as 0 -> 1 , 1 -> 2
-        for w1, w2 in zip(new_words, new_words[1:]):
-            if w1 > w2:
+                sublist.append(d[c])
+            list.append(sublist)
+        for o1, o2 in zip(list, list[1:]):
+            #2020.05.28 no need to check length, none is less than any c
+            if o1 > o2:
                 return False
         return True
 
