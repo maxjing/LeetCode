@@ -8,38 +8,20 @@ class Node:
 """
 
 
-class Solution(object):
-    """
-    :type head: Node
-    :rtype: Node
-    """
+class Solution:
+    def copyRandomList(self, head: 'Node') -> 'Node':
+        self.visited = {}
+        return self.copy(head)
 
-    def __init__(self):
-        # Dictionary which holds old nodes as keys and new nodes as its values.
-        self.visitedHash = {}
-
-    def copyRandomList(self, head):
-
-        if head == None:
+    def copy(self, node):
+        if not node:
             return None
+        if node in self.visited:
+            return self.visited[node]
 
-        # If we have already processed the current node, then we simply return the cloned version of it.
-        if head in self.visitedHash:
-            return self.visitedHash[head]
+        new_node = Node(node.val, None, None)
+        self.visited[node] = new_node
+        new_node.next = self.copy(node.next)
+        new_node.random = self.copy(node.random)
 
-        # create a new node
-        # with the value same as old node.
-        node = Node(head.val, None, None)
-
-        # Save this value in the hash map. This is needed since there might be
-        # loops during traversal due to randomness of random pointers and this would help us avoid them.
-        # 2020.05.28 save it first to avoid infinite loop, random pointer point to it
-        self.visitedHash[head] = node
-
-        # Recursively copy the remaining linked list starting once from the next pointer and then from the random pointer.
-        # Thus we have two independent recursive calls.
-        # Finally we update the next and random pointers for the new node created.
-        node.next = self.copyRandomList(head.next)
-        node.random = self.copyRandomList(head.random)
-
-        return node
+        return new_node

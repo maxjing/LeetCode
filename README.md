@@ -176,6 +176,7 @@
 |   328   | Odd Even Linked List               | [Python](./Python/328.py) |     Medium     |          |           |
 |   901   | Online Stock Span                  | [Python](./Python/901.py) |     Medium     |          |           |
 |   31    | Next Permutation                   | [Python](./Python/31.py)  |     Medium     |          |           |
+|   200    | Number of Islands                   | [Python](./Python/200.py)  |     Medium     |          |           |
 
 #### - DP
 
@@ -251,7 +252,7 @@
 |   270   | Closest Binary Search Tree Value                        | [Python](./Python/270.py)  |      Easy      |                |                    |
 |   31    | Next Permutation                                        |  [Python](./Python/31.py)  |     Medium     |                | dup                |
 |   721   | Accounts Merge                                          | [Python](./Python/721.py)  |     Medium     |                | DFS, UF            |
-|   249   | Group Shifted Strings                                   | [Python](./Python/721.py)  |     Medium     |                |                    |
+|   249   | Group Shifted Strings                                   | [Python](./Python/249.py)  |     Medium     |                |                    |
 |   42    | Trapping Rain Water                                     |  [Python](./Python/42.py)  |      Hard      |                |                    |
 |   56    | Merge Intervals                                         |  [Python](./Python/56.py)  |     Medium     |                | ##                 | dup |
 |   896   | Monotonic Array                                         | [Python](./Python/896.py)  |      Easy      |                |                    |
@@ -265,7 +266,7 @@
 |   314   | Binary Tree Vertical Order Traversal                    | [Python](./Python/314.py)  |     Medium     |                |                    |
 |   987   | Vertical Order Traversal of a Binary Tree               | [Python](./Python/987.py)  |     Medium     |                |                    |
 |   767   | Reorganize String                                       | [Python](./Python/767.py)  |     Medium     | MaxHeap        | dup                |
-|   43    | Multiply Strings                                        |  [Python](./Python/43.py)  |     Medium     | MaxHeap        | dup                |
+|   43    | Multiply Strings                                        |  [Python](./Python/43.py)  |     Medium     |         |                 |
 |   29    | Divide Two Integers                                     |  [Python](./Python/29.py)  |     Medium     |                | tricky             |
 |   528   | Random Pick with Weight                                 | [Python](./Python/528.py)  |     Medium     |                | dup                |
 |   34    | Find First and Last Position of Element in Sorted Array |  [Python](./Python/34.py)  |     Medium     |                | dup                |
@@ -291,3 +292,5 @@
 |   71    | Simplify Path                                           |  [Python](./Python/71.py)  |     Medium     |                |                    |
 |   825   | Friends Of Appropriate Ages                             | [Python](./Python/825.py)  |     Medium     |                |                    |
 |   138   | Copy List with Random Pointer                           | [Python](./Python/138.py)  |     Medium     |                |                    |
+|   865   | Smallest Subtree with all the Deepest Nodes                          | [Python](./Python/865.py)  |     Medium     |                |               same as 1123     |
+|   678   | Valid Parenthesis String                          | [Python](./Python/678.py)  |     Medium     |                |                   |

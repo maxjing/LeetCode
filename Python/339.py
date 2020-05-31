@@ -41,15 +41,16 @@
 #        :rtype List[NestedInteger]
 #        """
 
+
 class Solution:
     def depthSum(self, nestedList: List[NestedInteger]) -> int:
-        return self.dfs(nestedList, 1)
+        self.res = 0
+        self.dfs(nestedList, 1)
+        return self.res
 
     def dfs(self, nestedList, depth):
-        res = 0
-        for x in nestedList:
-            if x.isInteger():
-                res += x.getInteger() * depth
+        for l in nestedList:
+            if l.isInteger():
+                self.res += l.getInteger() * depth
             else:
-                res += self.dfs(x.getList(), depth + 1)
-        return res
+                self.dfs(l.getList(), depth + 1)

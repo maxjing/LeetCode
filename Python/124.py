@@ -8,6 +8,7 @@
 
 class Solution:
     def maxPathSum(self, root: TreeNode) -> int:
+        #initial with -math.inf not 0 2020.05.30
         self.globalMaximum = -math.inf
         self.findMaxPathSum(root)
         return self.globalMaximum

@@ -16,14 +16,17 @@ class Solution:
         if node:
             if L <= node.val <= R:
                 self.ans += node.val
-            #go smaller
+            # after added, check go which direction
+            # go smaller
             if L < node.val:
                 self.dfs(node.left, L, R)
-            #go bigger
+            # go bigger
             if node.val < R:
                 self.dfs(node.right, L, R)
 
-#2020.05.25 inorder traverse
+# 2020.05.25 inorder traverse
+
+
 class Solution:
     def rangeSumBST(self, root: TreeNode, L: int, R: int) -> int:
         self.res = []
