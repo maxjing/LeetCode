@@ -176,7 +176,8 @@
 |   328   | Odd Even Linked List               | [Python](./Python/328.py) |     Medium     |          |           |
 |   901   | Online Stock Span                  | [Python](./Python/901.py) |     Medium     |          |           |
 |   31    | Next Permutation                   | [Python](./Python/31.py)  |     Medium     |          |           |
-|   200    | Number of Islands                   | [Python](./Python/200.py)  |     Medium     |          |           |
+|   200   | Number of Islands                  | [Python](./Python/200.py) |     Medium     |          |           |
+|  1466   | Reorder Routes to Make All Paths Lead to the City Zero                                           | [Python](./Python/1466.py) |     Medium     |                |                    |
 
 #### - DP
 
@@ -215,6 +216,8 @@
 |   21    | Merge Two Sorted Lists           | [Python](./Python/21.py)  |      Easy      |          |           |
 |   160   | Intersection of Two Linked Lists | [Python](./Python/160.py) |      Easy      |          |           |
 |   369   | Plus One Linked List             | [Python](./Python/369.py) |     Medium     |          |           |
+
+
 
 #### - Facebook
 
@@ -266,7 +269,7 @@
 |   314   | Binary Tree Vertical Order Traversal                    | [Python](./Python/314.py)  |     Medium     |                |                    |
 |   987   | Vertical Order Traversal of a Binary Tree               | [Python](./Python/987.py)  |     Medium     |                |                    |
 |   767   | Reorganize String                                       | [Python](./Python/767.py)  |     Medium     | MaxHeap        | dup                |
-|   43    | Multiply Strings                                        |  [Python](./Python/43.py)  |     Medium     |         |                 |
+|   43    | Multiply Strings                                        |  [Python](./Python/43.py)  |     Medium     |                |                    |
 |   29    | Divide Two Integers                                     |  [Python](./Python/29.py)  |     Medium     |                | tricky             |
 |   528   | Random Pick with Weight                                 | [Python](./Python/528.py)  |     Medium     |                | dup                |
 |   34    | Find First and Last Position of Element in Sorted Array |  [Python](./Python/34.py)  |     Medium     |                | dup                |
@@ -292,5 +295,12 @@
 |   71    | Simplify Path                                           |  [Python](./Python/71.py)  |     Medium     |                |                    |
 |   825   | Friends Of Appropriate Ages                             | [Python](./Python/825.py)  |     Medium     |                |                    |
 |   138   | Copy List with Random Pointer                           | [Python](./Python/138.py)  |     Medium     |                |                    |
-|   865   | Smallest Subtree with all the Deepest Nodes                          | [Python](./Python/865.py)  |     Medium     |                |               same as 1123     |
-|   678   | Valid Parenthesis String                          | [Python](./Python/678.py)  |     Medium     |                |                   |
+|   865   | Smallest Subtree with all the Deepest Nodes             | [Python](./Python/865.py)  |     Medium     |                | same as 1123       |
+|   678   | Valid Parenthesis String                                | [Python](./Python/678.py)  |     Medium     |                |                    |
+|   463   | Island Perimeter                                        | [Python](./Python/678.py)  |      Easy      |                |                    | matrix |
+|   921   | Minimum Add to Make Parentheses Valid                   | [Python](./Python/921.py)  |     Medium     |                |                    |
+|   863   | All Nodes Distance K in Binary Tree                     | [Python](./Python/863.py)  |     Medium     |                | graph              |
+|   166   | Fraction to Recurring Decimal                           | [Python](./Python/166.py)  |     Medium     |                | math               |
+|  1245   | Tree Diameter                                           | [Python](./Python/1245.py) |     Medium     |                |                    |
+|  121   | Best Time to Buy and Sell Stock                                          | [Python](./Python/121.py) |     Medium     |                |                    |
+|  122   | Best Time to Buy and Sell Stock II                                         | [Python](./Python/122.py) |     Medium     |                |                    |
