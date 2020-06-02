@@ -165,19 +165,19 @@
 
 #### - Miscellaneous
 
-| **No.** | **Title**                          |       **Solution**        | **Difficulty** | **Tags** | **Notes** |
-| :-----: | :--------------------------------- | :-----------------------: | :------------: | :------- | :-------- |
-|   946   | Validate Stack Sequences           | [Python](./Python/946.py) |     Medium     | Stack    |           |
-|   258   | Add Digits                         | [Python](./Python/258.py) |      Easy      |          |           |
-|   55    | Jump Game                          | [Python](./Python/55.py)  |     Medium     |          |           |
-|   387   | First Unique Character in a String | [Python](./Python/387.py) |      Easy      |          |           |
-|   224   | Basic Calculator                   | [Python](./Python/224.py) |      Hard      |          |           | # |
-|   208   | Implement Trie (Prefix Tree)       | [Python](./Python/208.py) |     Medium     |          |           |
-|   328   | Odd Even Linked List               | [Python](./Python/328.py) |     Medium     |          |           |
-|   901   | Online Stock Span                  | [Python](./Python/901.py) |     Medium     |          |           |
-|   31    | Next Permutation                   | [Python](./Python/31.py)  |     Medium     |          |           |
-|   200   | Number of Islands                  | [Python](./Python/200.py) |     Medium     |          |           |
-|  1466   | Reorder Routes to Make All Paths Lead to the City Zero                                           | [Python](./Python/1466.py) |     Medium     |                |                    |
+| **No.** | **Title**                                              |        **Solution**        | **Difficulty** | **Tags** | **Notes** |
+| :-----: | :----------------------------------------------------- | :------------------------: | :------------: | :------- | :-------- |
+|   946   | Validate Stack Sequences                               | [Python](./Python/946.py)  |     Medium     | Stack    |           |
+|   258   | Add Digits                                             | [Python](./Python/258.py)  |      Easy      |          |           |
+|   55    | Jump Game                                              |  [Python](./Python/55.py)  |     Medium     |          |           |
+|   387   | First Unique Character in a String                     | [Python](./Python/387.py)  |      Easy      |          |           |
+|   224   | Basic Calculator                                       | [Python](./Python/224.py)  |      Hard      |          |           | # |
+|   208   | Implement Trie (Prefix Tree)                           | [Python](./Python/208.py)  |     Medium     |          |           |
+|   328   | Odd Even Linked List                                   | [Python](./Python/328.py)  |     Medium     |          |           |
+|   901   | Online Stock Span                                      | [Python](./Python/901.py)  |     Medium     |          |           |
+|   31    | Next Permutation                                       |  [Python](./Python/31.py)  |     Medium     |          |           |
+|   200   | Number of Islands                                      | [Python](./Python/200.py)  |     Medium     |          |           |
+|  1466   | Reorder Routes to Make All Paths Lead to the City Zero | [Python](./Python/1466.py) |     Medium     |          |           |
 
 #### - DP
 
@@ -216,8 +216,6 @@
 |   21    | Merge Two Sorted Lists           | [Python](./Python/21.py)  |      Easy      |          |           |
 |   160   | Intersection of Two Linked Lists | [Python](./Python/160.py) |      Easy      |          |           |
 |   369   | Plus One Linked List             | [Python](./Python/369.py) |     Medium     |          |           |
-
-
 
 #### - Facebook
 
@@ -302,5 +300,5 @@
 |   863   | All Nodes Distance K in Binary Tree                     | [Python](./Python/863.py)  |     Medium     |                | graph              |
 |   166   | Fraction to Recurring Decimal                           | [Python](./Python/166.py)  |     Medium     |                | math               |
 |  1245   | Tree Diameter                                           | [Python](./Python/1245.py) |     Medium     |                |                    |
-|  121   | Best Time to Buy and Sell Stock                                          | [Python](./Python/121.py) |     Medium     |                |                    |
-|  122   | Best Time to Buy and Sell Stock II                                         | [Python](./Python/122.py) |     Medium     |                |                    |
+|   121   | Best Time to Buy and Sell Stock                         | [Python](./Python/121.py)  |     Medium     |                |                    |
+|   122   | Best Time to Buy and Sell Stock II                      | [Python](./Python/122.py)  |     Medium     |                |                    |

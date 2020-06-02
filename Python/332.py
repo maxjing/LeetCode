@@ -1,16 +1,22 @@
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
-        adjacency = defaultdict(list)
+        graph = defaultdict(list)
         tickets.sort(reverse=True)
-        for src, dest in tickets:
-            adjacency[src].append(dest)
+        for u, v in tickets:
+            graph[u].append(v)
 
-        res = []
         stack = ["JFK"]
+        res = []
         while stack:
-            src = stack[-1]
-            if adjacency[src]:
-                stack.append(adjacency[src].pop())
+            u = stack[-1]
+            if graph[u]:
+                stack.append(graph[u].pop())
             else:
                 res.append(stack.pop())
         return res[::-1]
+
+
+'''
+remember to sort reverse first, so the greater lexi order will be popped first
+until cannot go anywhere else, means used up all its destination, means this one should be last stop, add it to result
+'''
