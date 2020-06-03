@@ -12,4 +12,6 @@ class Solution:
 
 '''
 Time: O(nlogk)
+如果是需要全部放进去才能知道确定答案的话， largest 就用 minheap
+#378 那种情况是sort着放的 smallest也用minheap， 不用全部放进去
 '''
