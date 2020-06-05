@@ -9,6 +9,10 @@ class Solution:
         return res
 
 '''
+sum[i, j] = sum[0, j] - sum[0, i - 1]    --> sum[0, i - 1] = sum[0, j] - sum[i, j]
+    k           sum      hashmap-key     -->  hashmap-key  =  sum - k
+
+https://leetcode.com/problems/subarray-sum-equals-k/discuss/190674/Python-O(n)-Based-on-%22running_sum%22-concept-of-%22Cracking-the-coding-interview%22-book
 [1, 2, 1, 3], k = 3 -> [1, 3, 4, 7] 
 {[0, 3], [1, 4], [7,4]} diff 3
 #prefix_sum = sum - k equals subarray equals k
