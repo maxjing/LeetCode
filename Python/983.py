@@ -1,15 +1,20 @@
 class Solution:
     def mincostTickets(self, days: List[int], costs: List[int]) -> int:
-        arr = [0] * 366
-        for d in days:
-            arr[d] = 1
-        dp = [0]
-        for i in range(1, len(arr)):
-            if arr[i] == 0:
-                dp.append(dp[-1])
+        days_dict = Counter(days)
+        print(days_dict)
+        # create days table from day 0 to last day plus one
+        table = [0 for i in range(0, days[-1] + 1)]
+        for i in range(0, days[-1] + 1):
+            # If the current day is not present in the travel days dictionary, it takes the previous value
+            if i not in days_dict:
+                table[i] = table[i - 1]
             else:
-                tmp = dp[-1] + costs[0]
-                tmp = min(tmp, costs[1]+ (dp[-7] if i-7>=0 else 0) )
-                tmp = min(tmp, costs[2]+ (dp[-30] if i-30>=0 else 0) )
-                dp.append(tmp)
-        return dp[-1]
+                # Used max to identify if the index exists
+                # it's a minimum of yesterday's cost plus single-day ticket, or cost for 8 days ago plus 7-day pass, or cost 31 days ago plus 30-day pass.
+                table[i] = min(
+                    table[max(0, i - 1)] + costs[0],  # per days value
+                    table[max(0, i - 7)] + costs[1],  # per week value
+                    table[max(0, i - 30)] + costs[2]  # per year value
+                )
+
+        return table[-1]
