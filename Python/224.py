@@ -19,11 +19,13 @@ class Solution:
                 res = 0
                 sign = 1
             elif c == ')':
+                prev_sign = stack.pop()
+                prev_res = stack.pop()
                 res += sign * num
                 # sign
-                res *= stack.pop()
+                res *= prev_sign
                 # prev value
-                res += stack.pop()
+                res += prev_res
                 num = 0
         #2020.05.18 return outside for loop
         return res + num * sign
