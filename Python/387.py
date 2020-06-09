@@ -1,5 +1,20 @@
 class Solution:
     def firstUniqChar(self, s: str) -> int:
+        d, seen = {}, set()
+        for i in range(len(s)):
+            c = s[i]
+            if c in seen:
+                if c in d:
+                    del d[c]
+            else:
+                d[c] = i
+                seen.add(c)
+        return -1 if not d else next(iter(d.items()))[1]
+'''
+one pass solution, set is used for case 'aaa'
+'''
+class Solution:
+    def firstUniqChar(self, s: str) -> int:
         d = {}
         for c in s:
             d[c] = d.get(c, 0) + 1
