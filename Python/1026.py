@@ -43,3 +43,7 @@ class Solution:
             queue.append((node.left, minval, maxval))
             queue.append((node.right, minval, maxval))
         return ans
+
+'''
+记录下 global max, min, 每次update 然后 root.left, root.right
+'''

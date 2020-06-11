@@ -8,17 +8,17 @@ class Solution:
     def largestValues(self, root: TreeNode) -> List[int]:
         if not root:
             return []
-        q = deque([root])
         res = []
+        q = deque([root])
         while q:
-            size = len(q)
             sublist = []
-            for _ in range(size):
+            curr_max = -math.inf
+            for _ in range(len(q)):
                 node = q.popleft()
                 if node.left:
                     q.append(node.left)
                 if node.right:
                     q.append(node.right)
-                sublist.append(node.val)
-            res.append(max(sublist))
+                curr_max = max(curr_max, node.val)
+            res.append(curr_max)
         return res

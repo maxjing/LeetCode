@@ -18,6 +18,7 @@ class Solution:
         left = self.dfs(node.left)
         right = self.dfs(node.right)
         # update global diameter if use current node as the turning point(which can only use left and right)
+        # notice it is the length between two nodes, so no need plus one
         self.res = max(self.res, left + right)
         # pass the longest path to parent
         return max(left, right) + 1

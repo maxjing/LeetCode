@@ -12,8 +12,6 @@ class Solution:
             if original:
                 if original.val == target.val:
                     return cloned
-
                 else:
                     return dfs(original.left, cloned.left, target) or dfs(original.right, cloned.right, target)
-
         return dfs(original, cloned, target)

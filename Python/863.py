@@ -6,40 +6,49 @@
 #         self.right = None
 
 #bfs
-class Solution:
-    def buildGraph(self, node, parent, graph):
-        if not node:
-            return
-        if parent:
-            graph[node].append(parent)
-        if node.left:
-            graph[node].append(node.left)
-            self.buildGraph(node.left, node, graph)
-        if node.right:
-            graph[node].append(node.right)
-            self.buildGraph(node.right, node, graph)
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
 
+class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, K: int) -> List[int]:
+        if not root:
+            return []
         graph = defaultdict(list)
-        self.buildGraph(root, None, graph)
-        q = deque([(target, 0)])
+
+        def dfs(root):
+            if not root:
+                return
+            if root.left:
+                graph[root].append(root.left)
+                graph[root.left].append(root)
+                dfs(root.left)
+            if root.right:
+                graph[root].append(root.right)
+                graph[root.right].append(root)
+                dfs(root.right)
+
+        dfs(root)
+
         visited = set()
         res = []
+        q = deque([(target, 0)])
         while q:
-            node, distance = q.popleft()
+            node, k = q.popleft()
             if node in visited:
                 continue
             visited.add(node)
-            if distance == K:
+            if k == K:
                 res.append(node.val)
-            elif distance < K:
-                for child in graph[node]:
-                    q.append((child, distance + 1))
+            elif k < K:
+                for next_node in graph[node]:
+                    q.append((next_node, k + 1))
         return res
 
-'''
-dfs only build node -> parent graph
-'''
+
 class Solution:
 
     def buildGraph(self, node, parent, graph):
