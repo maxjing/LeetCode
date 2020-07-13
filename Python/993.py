@@ -32,6 +32,7 @@ class Solution:
                     q.append(node.left)
                 if node.right is not None:
                     q.append(node.right)
+            # means same level
             if isX and isY:
                 return True
         return False

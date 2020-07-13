@@ -23,6 +23,7 @@ class Solution:
                         stack[-1].right = temp
                     else:
                         stack[-1].left = temp
+        # case "4" no parentheses
         if num:
             stack.append(TreeNode(int(num)))
         return stack[-1]

@@ -10,8 +10,10 @@ class Solution:
         def dfs(root):
             if not root:
                 return 0, 0
+            # post order
             left = dfs(root.left)
             right = dfs(root.right)
+            # for current node
             inc, des = 1, 1
             if root.left:
                 if root.val - root.left.val == 1:

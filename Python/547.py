@@ -12,3 +12,7 @@ class Solution:
                 count += 1
                 dfs(i)
         return count
+
+'''
+O(n^2)
+'''

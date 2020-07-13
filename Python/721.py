@@ -1,3 +1,63 @@
+class Solution:
+    def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
+        d = {}
+        graph = defaultdict(set)
+        for account in accounts:
+            name = account[0]
+            first_email = account[1]
+            d[first_email] = name
+            for email in account[1:]:
+                graph[first_email].add(email)
+                graph[email].add(first_email)
+
+        seen, res = set(), []
+        for email in d:
+            q = deque([email])
+            sublist = []
+            name = d[email]
+            while q:
+                f_email = q.popleft()
+                for node in graph[f_email]:
+                    if node not in seen:
+                        sublist.append(node)
+                        seen.add(node)
+                        q.append(node)
+            if sublist:
+                res.append([name] + sorted(sublist))
+        return res
+
+
+#bfs
+class Solution:
+    def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
+        d = {}
+        graph = defaultdict(set)
+        for account in accounts:
+            name = account[0]
+            first_email = account[1]
+            d[first_email] = name
+            for email in account[1:]:
+                graph[first_email].add(email)
+                graph[email].add(first_email)
+
+        seen, res = set(), []
+        for email in graph:
+            if email not in seen:
+                #start of new person
+                name = d[email]
+                q = deque([email])
+                sublist = []
+                while q:
+                    f_email = q.popleft()
+                    for node in graph[f_email]:
+                        if node not in seen:
+                            sublist.append(node)
+                            seen.add(node)
+                            q.append(node)
+                res.append([name] + sorted(sublist))
+        return res
+
+
 #dfs
 class Solution(object):
     def accountsMerge(self, accounts):

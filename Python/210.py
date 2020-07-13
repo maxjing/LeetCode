@@ -1,21 +1,27 @@
 class Solution:
-    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-        d = {i: set() for i in range(numCourses)}
-        nei = defaultdict(set)
-        for x, y in prerequisites:
-            d[x].add(y)
-            nei[y].add(x)
-        q = deque([i for i in d if not d[i]])
-        count, res = 0, []
+    def findOrder(self, n: int, p: List[List[int]]) -> List[int]:
+        in_ = [0] * n
+        for x, _ in p:
+            in_[x] += 1
+        q = deque()
+        for i, v in enumerate(in_):
+            if v == 0:
+                q.append(i)
+        res, count = [], 0
         while q:
-            node = q.popleft()
+            start = q.popleft()
             count += 1
-            res.append(node)
-            for i in nei[node]:
-                d[i].remove(node)
-                if not d[i]:
-                    q.append(i)
-        return res if count == numCourses else []
+            res.append(start)
+            for x, y in p:
+                if y == start:
+                    in_[x] -= 1
+                    if in_[x] == 0:
+                        q.append(x)
+
+        return res if count == n else []
+'''
+smilar to 207, O(v+e)
+'''
 
 
 # dfs

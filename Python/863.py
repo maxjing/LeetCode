@@ -13,6 +13,13 @@
 #         self.left = None
 #         self.right = None
 
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.left = None
+#         self.right = None
+
 class Solution:
     def distanceK(self, root: TreeNode, target: TreeNode, K: int) -> List[int]:
         if not root:
@@ -32,20 +39,19 @@ class Solution:
                 dfs(root.right)
 
         dfs(root)
-
-        visited = set()
+        q = deque()
+        q.append((target, 0))
         res = []
-        q = deque([(target, 0)])
+        visited = set()
         while q:
-            node, k = q.popleft()
-            if node in visited:
-                continue
+            node, distance = q.popleft()
             visited.add(node)
-            if k == K:
+            if distance == K:
                 res.append(node.val)
-            elif k < K:
+            elif distance < K:
                 for next_node in graph[node]:
-                    q.append((next_node, k + 1))
+                    if next_node not in visited:
+                        q.append((next_node, distance + 1))
         return res
 
 
