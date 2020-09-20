@@ -1,24 +1,30 @@
 # bfs
 class Solution:
-    def minReorder(self, n: int, connections: List[List[int]]) -> int:
-        graph = collections.defaultdict(list)
-        visited = set([0])
-        for u, v in connections:
-            graph[u].append(v)
-            graph[v].append(u)
-        connections = set(map(tuple, connections))
-        queue = collections.deque([0])
-        changes = 0
-        while queue:
-            u = queue.popleft()
-            for v in graph[u]:
-                if v in visited:
-                    continue
-                visited.add(v)
-                if (u, v) in connections:
-                    changes += 1
-                queue.append(v)
-        return changes
+    def minReorder(self, n: int, graph: List[List[int]]) -> int:
+        d = defaultdict(list)
+        paths = set()
+        for u, v in graph:
+            d[u].append(v)
+            d[v].append(u)
+            paths.add((u, v))
+
+        visited = [False for _ in range(n)]
+        q = deque()
+        q.append([0, -1])
+        res = 0
+        while q:
+            u, v = q.popleft()
+            if visited[u]:
+                continue
+            visited[u] = True
+            # 相反的direction
+            if (v, u) in paths:
+                res += 1
+            for nei in d[u]:
+                if not visited[nei]:
+                    q.append((nei, u))
+        return res
+
 
 # dfs
 class Solution:
@@ -35,7 +41,7 @@ class Solution:
             if (parent, node) in paths:
                 self.res += 1
             for v in graph[node]:
-                #means visited, already processed its parent
+                # means visited, already processed its parent
                 if v != parent:
                     dfs(v, node)
 

@@ -31,6 +31,7 @@ class Solution:
     def dfs(self, nums, res, subList, start):
         res.append(list(subList))
         for i in range(start, len(nums)):
+            # i = start 是可以一样的 因为第一次选 但是不是start但是确跟前面一样就不行， 不能跳过一个1 去选以下一个1
             if i != start and nums[i] == nums[i - 1]:
                 continue
             subList.append(nums[i])
