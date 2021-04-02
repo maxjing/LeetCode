@@ -20,6 +20,7 @@ class Solution:
 
 
 '''
+'aaab'
 1. maxHeap = [(3, a), (1, b)], prevChar = None, prevFreq = 0, res = []
 2. maxHeap = [(1, b)], char = a, freq = 3, res = ['a'], prevChar = a, prevFreq = 2
 3. maxHeap = [], char = b, freq = 1, res = ['a', 'b'], 
