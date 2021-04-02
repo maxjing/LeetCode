@@ -5,7 +5,9 @@ def merge_sort(values):
         left = values[:m]
         right = values[m:]
         left = merge_sort(left)
-        right = merge_sort(right)
+        right = merge_sort(right
+        
+        )
 
         values = []
 
